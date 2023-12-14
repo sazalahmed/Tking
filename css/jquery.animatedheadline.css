@@ -516,7 +516,7 @@
     }
 }
 
-.ah-headline.clip .ah-words-wrapper::after {
+.ah-headline.clip .ah-words-wrapper::before {
     content: '';
     position: absolute;
     top: 15px;
