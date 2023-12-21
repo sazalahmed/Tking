@@ -407,4 +407,27 @@ $(function () {
     });
 
 
+    //======Ranger Slider======
+    jQuery(function () {
+        jQuery("#slider_range").flatslider({
+            min: 0, max: 10000,
+            step: 100,
+            values: [0, 10000],
+            range: true,
+            einheit: '$'
+        });
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+
 });
