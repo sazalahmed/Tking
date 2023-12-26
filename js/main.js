@@ -32,12 +32,8 @@ $(function () {
         animationType: 'clip'
     });
 
-    // $('.animate-zoom').animatedHeadline({
-    //     animationType: 'zoom'
-    // });
 
-
-    //=====calender.js======   
+    //=====datepicker.js======   
     $(function () {
         var $startDate = $('.start-date');
         var $endDate = $('.end-date');
@@ -56,6 +52,15 @@ $(function () {
     });
 
 
+    //======= advance search ========
+    $(".wsus__adv_search_icon").on("click", function () {
+        $(".wsus__adv_search_area").addClass("show_search");
+    });
+
+    $(".wsus__adv_search_close").on("click", function () {
+        $(".wsus__adv_search_area").removeClass("show_search");
+    });
+
 
     //======= search quntty ========
     $(".guest_input").on("click", function (event) {
@@ -69,16 +74,6 @@ $(function () {
                 $(".quentity_dropdown").removeClass("show_qnty");
             }
         }
-    });
-
-
-    //======= advance search ========
-    $(".wsus__adv_search_icon").on("click", function () {
-        $(".wsus__adv_search_area").addClass("show_search");
-    });
-
-    $(".wsus__adv_search_close").on("click", function () {
-        $(".wsus__adv_search_area").removeClass("show_search");
     });
 
 
@@ -125,11 +120,12 @@ $(function () {
 
     // //====== filter item slider ======
     $('.owl-carousel').owlCarousel({
-        // autoplay: true,
+        autoplay: true,
         nav: false,
         loop: true,
         dots: false,
         responsiveClass: true,
+
         responsive: {
             1200: {
                 items: 3,
@@ -408,26 +404,215 @@ $(function () {
 
 
     //======Ranger Slider======
-    jQuery(function () {
-        jQuery("#slider_range").flatslider({
-            min: 0, max: 10000,
-            step: 100,
-            values: [0, 10000],
-            range: true,
-            einheit: '$'
-        });
+    // jQuery(function () {
+    //     jQuery("#slider_range").flatslider({
+    //         min: 0, max: 10000,
+    //         step: 100,
+    //         values: [0, 10000],
+    //         range: true,
+    //         einheit: '$'
+    //     });
+    // });
+
+    jQuery("#slider_range").flatslider({
+        min: 0, max: 10000,
+        step: 100,
+        values: [0, 10000],
+        range: true,
+        einheit: '$'
     });
 
 
+    //======hotel details slider====== 
+    $('.hotel_details_slider').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 4000,
+        dots: false,
+        arrows: true,
+        nextArrow: '<i class="far fa-arrow-right nextArrow"></i>',
+        prevArrow: '<i class="far fa-arrow-left prevArrow"></i>',
+
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    arrows: false,
+                    slidesToShow: 1,
+                }
+            }
+        ]
+    });
 
 
+    //======related room slider====== 
+    $('.related_room_slider').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 4000,
+        dots: true,
+        arrows: false,
+
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                }
+            }
+        ]
+    });
 
 
+    //=======room details slider=========   
+    $('.room_details_slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        fade: true,
+        dots: false,
+        arrows: true,
+        nextArrow: '<i class="far fa-arrow-right nextArrow"></i>',
+        prevArrow: '<i class="far fa-arrow-left prevArrow"></i>',
+    });
 
 
+    //======STICKY SIDEBAR======= 
+    $(".sticky_sidebar").stickit({
+        top: 70,
+    })
 
 
+    //=====CAR DETAILS SLIDER======== 
+    $('.car_slider_large').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: true,
+        dots: false,
+        fade: true,
+        asNavFor: '.car_slider_small',
+        nextArrow: '<i class="far fa-arrow-right nextArrow"></i>',
+        prevArrow: '<i class="far fa-arrow-left prevArrow"></i>',
+    });
+    $('.car_slider_small').slick({
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        asNavFor: '.car_slider_large',
+        dots: false,
+        arrows: false,
+        focusOnSelect: true,
+        centerMode: true,
+        centerPadding: '0px',
+        focusOnSelect: true,
 
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 2,
+                    arrows: false,
+                }
+            }
+        ]
+    });
+
+
+    //======related car slider====== 
+    $('.related_car_slider').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 4000,
+        dots: true,
+        arrows: false,
+
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                }
+            }
+        ]
+    });
 
 
 });
+
+
+
