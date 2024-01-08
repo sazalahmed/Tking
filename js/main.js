@@ -61,6 +61,14 @@ $(function () {
         $(".wsus__adv_search_area").removeClass("show_search");
     });
 
+    $('body').click(function (event) {
+        if ($(".wsus__adv_search_area").hasClass("show_search")) {
+            if (!$(event.target).closest('.wsus__banner_aearch').length) {
+                $(".wsus__adv_search_area").removeClass("show_search");
+            }
+        }
+    });
+
 
     //======= search quntty ========
     $(".guest_input").on("click", function (event) {
@@ -104,14 +112,15 @@ $(function () {
             {
                 breakpoint: 768,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 2,
+                    arrows: false,
                 }
             },
             {
                 breakpoint: 576,
                 settings: {
-                    arrows: false,
                     slidesToShow: 1,
+                    arrows: false,
                 }
             }
         ]
@@ -136,13 +145,16 @@ $(function () {
                 nav: true
             },
             768: {
+                items: 2,
+                nav: false
+            },
+            575: {
                 items: 1,
                 nav: false
             },
-            576: {
+            0: {
                 items: 1,
-                nav: true,
-                loop: false
+                nav: false
             }
         }
     })
@@ -195,6 +207,27 @@ $(function () {
         arrows: true,
         nextArrow: '<i class="far fa-arrow-right nextArrow"></i>',
         prevArrow: '<i class="far fa-arrow-left prevArrow"></i>',
+
+        responsive: [
+            {
+                breakpoint: 992,
+                settings: {
+                    arrows: false,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    arrows: false,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    arrows: false,
+                }
+            }
+        ]
     });
 
 
@@ -383,7 +416,7 @@ $(function () {
             {
                 breakpoint: 992,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 1,
                 }
             },
             {
@@ -435,12 +468,6 @@ $(function () {
         prevArrow: '<i class="far fa-arrow-left prevArrow"></i>',
 
         responsive: [
-            {
-                breakpoint: 1200,
-                settings: {
-                    slidesToShow: 2,
-                }
-            },
             {
                 breakpoint: 992,
                 settings: {
@@ -513,6 +540,21 @@ $(function () {
         arrows: true,
         nextArrow: '<i class="far fa-arrow-right nextArrow"></i>',
         prevArrow: '<i class="far fa-arrow-left prevArrow"></i>',
+
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    arrows: false,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    arrows: false,
+                }
+            }
+        ]
     });
 
 
@@ -532,6 +574,20 @@ $(function () {
         asNavFor: '.car_slider_small',
         nextArrow: '<i class="far fa-arrow-right nextArrow"></i>',
         prevArrow: '<i class="far fa-arrow-left prevArrow"></i>',
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    arrows: false,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    arrows: false,
+                }
+            }
+        ]
     });
     $('.car_slider_small').slick({
         slidesToShow: 5,
@@ -548,7 +604,7 @@ $(function () {
             {
                 breakpoint: 1200,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 4,
                 }
             },
             {
@@ -560,7 +616,7 @@ $(function () {
             {
                 breakpoint: 768,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 3,
                 }
             },
             {
@@ -587,7 +643,7 @@ $(function () {
             {
                 breakpoint: 1200,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 2,
                 }
             },
             {
@@ -626,11 +682,10 @@ $(function () {
     });
 
 
-
-
-
-
-
+    //=======SMALL DEVICE MENU ICON======
+    $(".navbar-toggler").on("click", function () {
+        $(".navbar-toggler").toggleClass("show");
+    });
 
 
 });

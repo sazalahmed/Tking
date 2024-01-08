@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/ranger_slider.css">
     <link rel="stylesheet" href="css/venobox.min.css">
+    <link rel="stylesheet" href="css/scroll_button.css">
 
     <link rel="stylesheet" href="css/spacing.css">
     <link rel="stylesheet" href="css/style.css">
@@ -36,7 +37,8 @@
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <i class="far fa-bars menu_icon_bar"></i>
+                <i class="far fa-times close_icon_close"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav me-auto">
@@ -185,61 +187,57 @@
     <section class="wsus__packages_page mt_120 xs_mt_100">
         <div class="container">
             <div class="row">
-                <div class="col-xl-4">
-                    <div class="sticky_sidebar">
-                        <div class="wsus__left_sidebar">
-                            <form action="#">
-                                <div class="wsus__left_sidebar_wizard">
-                                    <h3>Price Range</h3>
-                                    <div class="price_ranger">
-                                        <p><span>Minimum Price</span> <span>Maximum Price</span></p>
-                                        <input type="hidden" id="slider_range" class="flat-slider" />
-                                    </div>
+                <div class="col-lg-4 col-md-8 order-2">
+                    <div class="wsus__left_sidebar">
+                        <form action="#">
+                            <div class="wsus__left_sidebar_wizard">
+                                <h3>Price Range</h3>
+                                <div class="price_ranger">
+                                    <p><span>Minimum Price</span> <span>Maximum Price</span></p>
+                                    <input type="hidden" id="slider_range" class="flat-slider" />
                                 </div>
-                                <div class="wsus__left_sidebar_wizard search_wized">
-                                    <h3>Package Search</h3>
-                                    <p>Package Searche</p>
-                                    <div class="search_imput">
-                                        <input type="text" placeholder="Package Search">
-                                        <button type="submit"><i class="far fa-search"></i></button>
-                                    </div>
+                            </div>
+                            <div class="wsus__left_sidebar_wizard search_wized">
+                                <h3>Package Search</h3>
+                                <p>Package Searche</p>
+                                <div class="search_imput">
+                                    <input type="text" placeholder="Package Search">
+                                    <button type="submit"><i class="far fa-search"></i></button>
                                 </div>
-                                <div class="wsus__left_sidebar_wizard search_location">
-                                    <h3>Filter Durations</h3>
-                                    <p>Filter Durations</p>
-                                    <select class="select_2">
-                                        <option value="">Select Durations</option>
-                                        <option value="">Japan</option>
-                                        <option value="">Korea</option>
-                                        <option value="">Thailand</option>
-                                        <option value="">Singapore</option>
-                                        <option value="">Landon</option>
-                                    </select>
+                            </div>
+                            <div class="wsus__left_sidebar_wizard search_location">
+                                <h3>Filter Durations</h3>
+                                <p>Filter Durations</p>
+                                <select class="select_2">
+                                    <option value="">Select Durations</option>
+                                    <option value="">Japan</option>
+                                    <option value="">Korea</option>
+                                    <option value="">Thailand</option>
+                                    <option value="">Singapore</option>
+                                    <option value="">Landon</option>
+                                </select>
+                            </div>
+                            <div class="wsus__left_sidebar_wizard mb-0">
+                                <h3>Airfare</h3>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault13">
+                                    <label class="form-check-label" for="flexCheckDefault13">
+                                        With Air Fare
+                                    </label>
                                 </div>
-                                <div class="wsus__left_sidebar_wizard">
-                                    <h3>Airfare</h3>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" value=""
-                                            id="flexCheckDefault13">
-                                        <label class="form-check-label" for="flexCheckDefault13">
-                                            With Air Fare
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" value=""
-                                            id="flexCheckDefault10">
-                                        <label class="form-check-label" for="flexCheckDefault10">
-                                            Without Air Fare
-                                        </label>
-                                    </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault10">
+                                    <label class="form-check-label" for="flexCheckDefault10">
+                                        Without Air Fare
+                                    </label>
                                 </div>
-                            </form>
-                        </div>
+                            </div>
+                        </form>
                     </div>
                 </div>
-                <div class="col-xl-8">
+                <div class="col-lg-8 order-lg-2">
                     <div class="row">
-                        <div class="col-xl-6">
+                        <div class="col-xl-6 col-md-6">
                             <div class="wsus__single_package_3">
                                 <div class="wsus__single_package_3_img">
                                     <img src="images/package_3_img_1.jpg" alt="package" class="img-fluid w-100">
@@ -256,7 +254,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-6">
+                        <div class="col-xl-6 col-md-6">
                             <div class="wsus__single_package_3">
                                 <div class="wsus__single_package_3_img">
                                     <img src="images/package_3_img_2.jpg" alt="package" class="img-fluid w-100">
@@ -273,7 +271,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-6">
+                        <div class="col-xl-6 col-md-6">
                             <div class="wsus__single_package_3">
                                 <div class="wsus__single_package_3_img">
                                     <img src="images/package_3_img_4.jpg" alt="package" class="img-fluid w-100">
@@ -290,7 +288,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-6">
+                        <div class="col-xl-6 col-md-6">
                             <div class="wsus__single_package_3">
                                 <div class="wsus__single_package_3_img">
                                     <img src="images/package_3_img_1.jpg" alt="package" class="img-fluid w-100">
@@ -341,7 +339,7 @@
     =============================-->
     <section class="wsus__newslwtter pt_120 xs_pt_100">
         <div class="container">
-            <div class="col-xl-9 ms-auto">
+            <div class="col-lg-9 ms-auto">
                 <div class="wsus__newslwtter_bg">
                     <div class="text">
                         <h2>Subscribe Us</h2>
@@ -366,12 +364,12 @@
     <footer class="pt_100">
         <div class="container">
             <div class="row justify-content-between">
-                <div class="col-xl-4">
+                <div class="col-lg-4">
                     <div class="wsus__footer_banner">
                         <img src="images/footer_banner.jpg" alt="banner" class="img-fluid w-100">
                     </div>
                 </div>
-                <div class="col-xl-2">
+                <div class="col-lg-2 col-sm-6 col-md-4">
                     <div class="wsus__footer_link">
                         <h3>Quick Links</h3>
                         <ul>
@@ -383,7 +381,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-xl-2">
+                <div class="col-lg-2 col-sm-6 col-md-4">
                     <div class="wsus__footer_link">
                         <h3>Platform</h3>
                         <ul>
@@ -395,7 +393,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-xl-3">
+                <div class="col-lg-3 col-md-4">
                     <div class="wsus__footer_logo_area">
                         <a class="footer_logo" href="index.html">
                             <img src="images/logo_2.png" alt="Tking" class="img-fluid w-100">
@@ -431,6 +429,19 @@
     =============================-->
 
 
+    <!--================================
+        SCROLL BUTTON START
+    =================================-->
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!--================================
+        SCROLL BUTTON END
+    =================================-->
+
+
     <!--jquery library js-->
     <script src="js/jquery-3.7.1.min.js"></script>
     <!--bootstrap js-->
@@ -463,6 +474,8 @@
     <script src="js/datepicker.js"></script>
     <!--Simply Countdown js-->
     <script src="js/simplyCountdown.js"></script>
+    <!--scroll button js-->
+    <script src="js/scroll_button.js"></script>
 
     <!--main/custom js-->
     <script src="js/main.js"></script>

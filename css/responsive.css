@@ -1,60 +1,4244 @@
-@media (min-width: 1200px) and (max-width: 1399.99px) {
-    
-      
- 
-  
+@media (min-width: 1400px) and (max-width: 1600px) {
+    .wsus__offer_item .text {
+        padding: 50px;
+        max-width: 75%;
+    }
+
+    .wsus__offer_item_large .text {
+        max-width: 55%;
+    }
+
+    .wsus__banner {
+        height: auto;
+    }
+
+    .wsus__banner_text {
+        padding-top: 290px;
+    }
+
+    .wsus__banner_overlay {
+        padding-bottom: 100px;
+    }
+
+    .wsus__banner_2 .wsus__banner_text h1 {
+        font-size: 76px;
+    }
+
+    .wsus__banner_2_content {
+        margin-top: -660px;
+    }
+
+    .wsus__banner_2 .wsus__banner_aearch .nav-pills {
+        margin-top: 0;
+    }
+
+    .wsus__banner_2 .wsus__banner_aearch {
+        margin-top: 90px;
+    }
+
+    .wsus__banner_2 {
+        height: 640px !important;
+        margin-bottom: 170px;
+    }
+
+    .wsus__banner_2 .nextArrow,
+    .wsus__banner_2 .prevArrow {
+        right: 100px;
+    }
+
+    .wsus__banner_2 .prevArrow {
+        left: 100px;
+    }
+
+    .wsus__video_text .circle_box {
+        right: 120px;
+    }
+
+    .wsus__video_text::after {
+        top: 125px;
+        right: 345px;
+    }
+
+    .instagram_single_photo {
+        height: 245px;
+    }
+
+    .video-background {
+        height: 915px !important;
+    }
+
+    .wsus__package_3 {
+        padding-top: 110px !important;
+    }
+
+    .wsus__banner_text_3 {
+        padding-top: 320px;
+    }
+
+    .wsus__banner_text_3 p {
+        max-width: 45%;
+    }
+
+    .wsus__offcanvas_blog ul li .text {
+        width: 63%;
+    }
+
+    .wsus__single_package_3 {
+        padding: 20px;
+    }
+
+    .wsus__single_package_3_img {
+        height: 360px;
+    }
+
+    .wsus__single_package_3 .text {
+        padding: 20px 20px 15px 20px;
+    }
+
+    .wsus__single_package_3 .rating {
+        top: 20px;
+        left: 20px;
+    }
+
+    .wsus__destination_3_item .text {
+        width: 60%;
+    }
+
+    .wsus__offer_3 p,
+    .wsus__offer_3 p span {
+        font-size: 46px;
+    }
+
+    .wsus__single_blog_3_text {
+        max-width: 56%;
+    }
+
+    .wsus__package_3_area {
+        padding: 0px 20px;
+    }
+
+    .wsus__banner_3 {
+        background: none !important;
+    }
+
+    .wsus__agent_profile_text {
+        margin-left: 25px;
+    }
+
+    .wsus__agent_profile_text .link li:first-child {
+        width: auto;
+    }
+
+    .wsus__details_snapshot ul li {
+        width: 40%;
+    }
+
+    .wsus__packages_page .wsus__single_package_3_img {
+        height: 500px;
+    }
+
+    .wsus__service_video h2 {
+        font-size: 92px;
+    }
+
+    .wsus__service_contact_form {
+        padding-left: 76px;
+    }
 }
 
+@media (min-width: 1200px) and (max-width: 1399.99px) {
 
+    /*===========================
+        HOME PAGE 01 START
+    ===========================*/
+    .wsus__banner_aearch form ul {
+        width: 88%;
+    }
+
+    .main_menu .navbar-nav .nav-item .nav-link {
+        margin: 0px 15px;
+    }
+
+    .wsus__banner_aearch form ul li .text {
+        width: 72%;
+    }
+
+    .wsus__banner_aearch form ul li .text h3 span,
+    .wsus__banner_aearch form ul li .text h3 {
+        font-size: 12px;
+    }
+
+    .wsus__single_destinatiom {
+        height: 320px;
+    }
+
+    .wsus__offer_item .text {
+        padding: 40px;
+        max-width: 75%;
+    }
+
+    .wsus__common_card_img {
+        height: 175px;
+    }
+
+    .wsus__why_choose_item {
+        padding: 40px 20px 20px 20px;
+    }
+
+    .wsus__popular_flight_item .text {
+        padding: 10px 15px;
+        max-width: 69%;
+    }
+
+    .wsus__popular_flight_item .text a {
+        font-size: 16px;
+    }
+
+    .wsus__testimonial .nextArrow,
+    .wsus__testimonial .prevArrow {
+        left: -345px;
+    }
+
+    .wsus__testimonial .prevArrow {
+        left: -395px;
+    }
+
+    .wsus__testimonial_bg {
+        padding: 60px 50px;
+    }
+
+    .wsus__download_text h5,
+    .wsus__download_text h5 span {
+        font-size: 40px;
+    }
+
+    .wsus__single_blog_img {
+        height: 205px;
+    }
+
+    .wsus__footer_banner {
+        height: 505px;
+    }
+
+    .wsus__banner {
+        height: auto;
+    }
+
+    .wsus__banner_text {
+        padding-top: 250px;
+    }
+
+    .wsus__banner_overlay {
+        padding-bottom: 100px;
+    }
+
+    /*===========================
+        HOME PAGE 01 END
+    ===========================*/
+
+    /*===========================
+        HOME PAGE 02 START
+    ===========================*/
+    .wsus__banner_2 {
+        height: 600px;
+        margin-bottom: 200px;
+    }
+
+    .wsus__banner_2 .wsus__banner_text h1 {
+        font-size: 76px;
+    }
+
+    .wsus__banner_2 .wsus__banner_aearch {
+        margin-top: 30px;
+    }
+
+    .wsus__banner_2_content {
+        margin-top: -580px;
+    }
+
+    .wsus__single_destinatiom_2 {
+        height: 220px;
+    }
+
+    .destinatiom_2_last_item img {
+        max-width: 260px;
+    }
+
+    .destinatiom_2_last_item .text_2 {
+        padding: 25px;
+    }
+
+    .wsus__offer_package_item .text {
+        padding: 30px;
+        width: 80%;
+    }
+
+    .wsus__offer_package_item {
+        height: 225px;
+    }
+
+    .wsus__common_card_2_img {
+        height: 400px;
+    }
+
+    .wsus__filter_2 .filter_button .nav-tabs {
+        gap: 20px;
+    }
+
+    .wsus__promo_app_download h3,
+    .wsus__promo_code h3,
+    .wsus__promo_code h3 span {
+        max-width: 60%;
+    }
+
+    .wsus__promo_app_download .img {
+        width: 245px;
+        height: 260px;
+    }
+
+    .wsus__promo_code {
+        padding: 42px;
+    }
+
+    .wsus__promo_app_download .text {
+        width: 55%;
+        padding: 25px;
+    }
+
+    .wsus__video_text h2 {
+        font-size: 58px;
+    }
+
+    .wsus__video::after {
+        width: 150px;
+        height: 235px;
+    }
+
+    .wsus__video_text .circle_box {
+        top: 0;
+        right: 60px;
+    }
+
+    .wsus__video_text::after {
+        right: 260px;
+    }
+
+    .wsus__single_blog_2 {
+        height: 410px;
+    }
+
+    .instagram_single_photo {
+        height: 210px;
+    }
+
+    .wsus__footer_contact ul li .text a,
+    .wsus__footer_contact ul li .text p {
+        font-size: 14px;
+    }
+
+    .wsus__footer_logo_area p {
+        font-size: 14px;
+    }
+
+    .footer_2 .wsus__footer_link ul li a {
+        font-size: 14px;
+    }
+
+    .wsus__banner_2 .nextArrow,
+    .wsus__banner_2 .prevArrow {
+        right: 62px;
+    }
+
+    .footer_2 .wsus__footer_link {
+        padding-left: 0px;
+    }
+
+    .wsus__single_destinatiom_2 .text a {
+        width: 35px;
+        height: 35px;
+        line-height: 32px;
+    }
+
+    .wsus__banner_2 .prevArrow {
+        left: 62px;
+    }
+
+    .wsus__banner_aearch form>button {
+        font-size: 14px;
+    }
+
+    /*===========================
+        HOME PAGE 02 END
+    ===========================*/
+
+    /*===========================
+        HOME PAGE 03 START
+    ===========================*/
+    .video-background {
+        height: 800px !important;
+    }
+
+    .wsus__banner_3 .wsus__banner_text {
+        padding-top: 320px;
+    }
+
+    .wsus__banner_text_3 p {
+        max-width: 55%;
+    }
+
+    .wsus__banner_text_3 h1 {
+        width: 65%;
+    }
+
+    .wsus__banner_text_3 .wsus__banner_aearch .nav-pills {
+        margin-top: 50px;
+    }
+
+    .wsus__banner_3 {
+        background: none !important;
+    }
+
+    .wsus__package_3 {
+        padding-top: 110px !important;
+    }
+
+    .wsus__package_3_area {
+        padding: 0px 15px;
+    }
+
+    .wsus__single_package_3 .text {
+        padding: 15px 15px 10px 15px;
+    }
+
+    .wsus__single_package_3 .rating {
+        top: 15px;
+        left: 15px;
+    }
+
+    .wsus__single_package_3 .text .title {
+        font-size: 16px;
+    }
+
+    .wsus__single_package_3 {
+        padding: 15px;
+    }
+
+    .wsus__single_package_3_img {
+        height: 320px;
+    }
+
+    .wsus__why_choose_3_text ul li .text {
+        width: 77%;
+    }
+
+    .wsus__why_choose_3_img {
+        height: 460px;
+    }
+
+    .wsus__destination_3_item .img {
+        margin-right: 20px;
+    }
+
+    .wsus__destination_3_item .text {
+        width: 57%;
+    }
+
+    .wsus__destination_3_item .text a {
+        font-size: 16px;
+    }
+
+    .wsus__offer_3 p,
+    .wsus__offer_3 p span {
+        font-size: 40px;
+    }
+
+    .wsus__single_blog_3_text {
+        max-width: 60%;
+    }
+
+    .footer_3_content>li {
+        padding: 40px 20px;
+        align-items: start;
+    }
+
+    .wsus__destination_3 {
+        padding-bottom: 335px;
+    }
+
+    .main_menu_3 .right_menu_3 {
+        background: #193180;
+        border-top: 1px solid rgba(255, 255, 255, 0.10);
+    }
+
+    .wsus__header_right>li:first-child {
+        margin-right: 13px;
+    }
+
+    .wsus__offcanvas_blog ul li .text {
+        width: 64%;
+    }
+
+    .wsus__why_choose_3 .section_heading h2,
+    .wsus__why_choose_3 .section_heading h2 span {
+        font-size: 38px;
+    }
+
+    .wsus__single_blog_3 {
+        padding: 20px;
+    }
+
+    .wsus__single_blog_3_img {
+        margin-right: 25px;
+    }
+
+    .wsus__single_blog_3_text {
+        max-width: 53%;
+    }
+
+    .wsus__single_blog_3_text p {
+        margin-bottom: 20px;
+    }
+
+    /*===========================
+        HOME PAGE 03 END
+    ===========================*/
+    .wsus__single_team {
+        height: 450px;
+    }
+
+    .wsus__agent_profile_text {
+        margin-left: 0;
+    }
+
+    .wsus__agent_profile_text .info li {
+        width: 45%;
+    }
+
+    .wsus__agent_profile_text .info li .icon {
+        margin-bottom: 10px;
+    }
+
+    .wsus__agent_profile_text .link li:first-child {
+        width: auto;
+    }
+
+    /*===========================
+        BLOG DETAILS START
+    ===========================*/
+    .wsus__blog_details_banner_img {
+        height: 405px;
+    }
+
+    .wsus__blog_details_banner_text {
+        padding: 50px;
+    }
+
+    .wsus__blog_details_banner_text h2 {
+        font-size: 38px;
+    }
+
+    .wsus__details_small_img_area .img {
+        height: 235px;
+    }
+
+    .wsus__single_comment .text {
+        width: 91%;
+    }
+
+    .wsus__single_comment.reply .text {
+        width: 90%;
+    }
+
+    .wsus__sidebar_blog ul li .text {
+        width: 62%;
+    }
+
+    /*===========================
+        BLOG DETAILS END
+    ===========================*/
+
+    /*===========================
+        HOTEL DETAILS START
+    ===========================*/
+    .hotel_details_slider_item {
+        height: 465px;
+    }
+
+    .wsus__details_aminities ul li {
+        width: 48%;
+    }
+
+    .wsus__hotel_details_sidebar {
+        padding-left: 0;
+    }
+
+    .wsus__sidebar_author {
+        height: 390px;
+    }
+
+    .hotel_room .wsus__common_card_img {
+        height: 180px;
+    }
+
+    /*===========================
+        HOTEL DETAILS END
+    ===========================*/
+
+    .car_slider_large_img {
+        height: 405px;
+    }
+
+    .wsus__single_list_item_text .wsus__common_card_text {
+        padding: 0px 0px 0px 30px;
+    }
+
+    .wsus__single_list_item_text .wsus__common_card_text_footer {
+        padding: 10px 20px 0px 30px;
+    }
+
+    .wsus__details_snapshot ul li {
+        width: 45%;
+    }
+
+    .wsus__single_list_item_text .wsus__common_card_text .title {
+        padding-right: 20px;
+    }
+
+    .wsus__single_list_item_text .bookmark {
+        top: -15px;
+    }
+
+    .wsus__packages_page .wsus__single_package_3_img {
+        height: 430px;
+    }
+
+    /*===========================
+        SERVICES START
+    ===========================*/
+    .wsus_service_info_text .section_heading h2,
+    .wsus_service_info_text .section_heading h2 span {
+        font-size: 36px;
+    }
+
+    .wsus__single_services {
+        padding: 30px;
+    }
+
+    .wsus__single_services a {
+        font-size: 18px;
+    }
+
+    .wsus__service_are_banner {
+        height: 503px;
+    }
+
+    .wsus__service_video h2 {
+        font-size: 76px;
+    }
+
+    .wsus__service_contact_form {
+        padding: 40px 0px 40px 60px;
+    }
+
+    .wsus__service_contact_img {
+        margin-left: 35px;
+        height: 100%;
+    }
+
+    /*===========================
+        SERVICES END
+    ===========================*/
+}
 
 @media (min-width: 992px) and (max-width: 1199.99px) {
-    
-      
- 
-  
+
+    /*===========================
+        HOME PAGE 01 START
+    ===========================*/
+    .main_menu .navbar-brand {
+        width: 110px;
+    }
+
+    .main_menu .navbar-nav .nav-item .nav-link {
+        font-size: 13px;
+        margin: 0px 10px;
+    }
+
+    .main_menu .right_menu>li:first-child {
+        padding-right: 10px;
+        margin-right: 10px;
+    }
+
+    .main_menu .right_menu li .common_btn {
+        margin-left: 10px;
+    }
+
+    .nice-select .current {
+        font-size: 13px;
+    }
+
+    .wsus__banner_text h1,
+    .wsus__banner_text h1 span {
+        max-width: 90%;
+    }
+
+    .wsus__banner_aearch form {
+        padding: 25px;
+    }
+
+    .wsus__banner_aearch .nav-pills {
+        padding: 20px 25px;
+    }
+
+    .wsus__banner_aearch form ul {
+        width: 84%;
+    }
+
+    .wsus__banner_aearch form ul li .text {
+        width: 64%;
+    }
+
+    .wsus__banner_aearch form ul li {
+        width: 48%;
+    }
+
+    .wsus__adv_search_icon {
+        top: 80px;
+    }
+
+    .wsus__adv_search_area .select2-container {
+        margin-top: 10px;
+    }
+
+    .wsus__offer_item .text {
+        padding: 35px;
+        max-width: 100%;
+    }
+
+    .wsus__offer_item {
+        height: 330px;
+    }
+
+    .wsus__common_card_img {
+        height: 230px;
+    }
+
+    .wsus__popular_flight_item .text {
+        padding: 5px 10px;
+        max-width: 62%;
+    }
+
+    .wsus__popular_flight_item .img {
+        width: 100px;
+    }
+
+    .wsus__popular_flight_item .text a {
+        font-size: 14px;
+    }
+
+    .wsus__popular_flight_item .text a span {
+        font-size: 12px;
+        margin: 0px 10px;
+    }
+
+    .wsus__popular_flight_item .text h3 {
+        font-size: 16px;
+    }
+
+    .wsus__popular_flight .nextArrow,
+    .wsus__popular_flight .prevArrow {
+        bottom: -50px;
+    }
+
+    .popular_flight_btn_area {
+        margin-top: 8px !important;
+    }
+
+    .wsus__testimonial .nextArrow,
+    .wsus__testimonial .prevArrow {
+        left: -303px;
+    }
+
+    .wsus__testimonial .prevArrow {
+        left: -353px;
+    }
+
+    .wsus__testimonial_bg {
+        padding: 40px;
+    }
+
+    .wsus__download_text h5,
+    .wsus__download_text h5 span {
+        font-size: 38px;
+        line-height: inherit;
+    }
+
+    .wsus__single_blog_img {
+        height: 270px;
+    }
+
+    .wsus__footer_banner {
+        height: 420px;
+    }
+
+    .wsus__footer_link {
+        padding-left: 0;
+    }
+
+    .wsus__newslwtter_bg {
+        padding: 45px 50px 40px 115px;
+    }
+
+    .wsus__newslwtter_bg .text h2 {
+        font-size: 26px;
+    }
+
+    .wsus__newslwtter_bg .text {
+        width: 40%;
+    }
+
+    .wsus__newslwtter_bg form {
+        width: 60%;
+    }
+
+    .wsus__footer_link ul li a {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    .progress-wrap {
+        right: 30px;
+    }
+
+    .wsus__single_blog_text {
+        padding: 20px 20px 20px 20px;
+    }
+
+    .wsus__banner_aearch .quentity_dropdown {
+        margin-top: 35px;
+    }
+
+    .nice-select .current {
+        font-size: 12px;
+    }
+
+    .main_menu_2 .right_menu li .icon {
+        margin-left: 10px;
+    }
+
+    .main_menu .right_menu li .common_btn {
+        font-size: 14px;
+    }
+
+    .wsus__banner {
+        height: auto;
+    }
+
+    .wsus__banner_text {
+        padding-top: 220px;
+    }
+
+    .wsus__banner_overlay {
+        padding-bottom: 100px;
+    }
+
+    /*===========================
+        HOME PAGE 01 END
+    ===========================*/
+
+    /*===========================
+        HOME PAGE 02 START
+    ===========================*/
+    .wsus__banner_2 {
+        height: 600px;
+        margin-bottom: 180px;
+    }
+
+    .wsus__banner_2 .wsus__banner_text h1 {
+        font-size: 64px;
+    }
+
+    .wsus__banner_2 .wsus__banner_aearch {
+        margin-top: 30px;
+    }
+
+    .wsus__banner_2_content {
+        margin-top: -500px;
+    }
+
+    .wsus__banner_2 .wsus__banner_aearch form ul li {
+        border-radius: 6px;
+        width: 48%;
+    }
+
+    .wsus__banner_2 .wsus__banner_text {
+        padding-top: 0;
+    }
+
+    .wsus__single_destinatiom_2 {
+        height: 300px;
+    }
+
+    .destinatiom_2_last_item img {
+        display: none;
+    }
+
+    .destinatiom_2_last_item .text_2 {
+        width: 100%;
+    }
+
+    .wsus__offer_package_item .text {
+        padding: 30px;
+        width: 100%;
+    }
+
+    .wsus__offer_package_item {
+        height: 200px;
+    }
+
+    .wsus__offer_package_item .text h2 {
+        font-size: 22px;
+    }
+
+    .wsus__common_card_2_img {
+        height: 340px;
+    }
+
+    .wsus__filter_2 .filter_button .nav-tabs {
+        gap: 20px;
+    }
+
+    .wsus__promo_code {
+        padding: 30px;
+    }
+
+    .wsus__promo_app_download h3,
+    .wsus__promo_code h3,
+    .wsus__promo_code h3 span {
+        max-width: 70%;
+        font-size: 24px;
+    }
+
+    .wsus__promo_app_download .img {
+        width: 225px;
+        height: 225px;
+    }
+
+    .wsus__promo_app_download .text {
+        width: 55%;
+        padding: 25px;
+    }
+
+    .wsus__video_text h2 {
+        font-size: 48px;
+    }
+
+    .wsus__video::after {
+        width: 150px;
+        height: 235px;
+    }
+
+    .wsus__video_text .circle_box {
+        top: 0;
+        right: 60px;
+    }
+
+    .wsus__video_text::after {
+        right: 260px;
+    }
+
+    .wsus__download_img {
+        width: 380px;
+        height: 500px;
+    }
+
+    .wsus__single_blog_2 {
+        height: 520px;
+    }
+
+    .instagram_single_photo {
+        height: 260px;
+    }
+
+    .wsus__footer_contact ul li .text a,
+    .wsus__footer_contact ul li .text p {
+        font-size: 14px;
+    }
+
+    .wsus__footer_logo_area p {
+        font-size: 14px;
+    }
+
+    .wsus__banner_2 .nextArrow,
+    .wsus__banner_2 .prevArrow {
+        right: 62px;
+    }
+
+    .wsus__banner_2 .prevArrow {
+        left: 62px;
+    }
+
+    /*===========================
+        HOME PAGE 02 END
+    ===========================*/
+
+    /*===========================
+        HOME PAGE 03 START
+    ===========================*/
+    .video-background {
+        height: 700px !important;
+    }
+
+    .wsus__banner_3 .wsus__banner_text {
+        padding-top: 255px;
+    }
+
+    .wsus__banner_text_3 p {
+        max-width: 65%;
+    }
+
+    .wsus__banner_text_3 h1 {
+        margin-bottom: 20px;
+        font-size: 64px;
+        width: 65%;
+    }
+
+    .wsus__banner_text_3 .wsus__banner_aearch .nav-pills {
+        margin-top: 50px;
+    }
+
+    .wsus__banner_3 {
+        background: none !important;
+    }
+
+    .wsus__package_3 {
+        padding-top: 110px !important;
+    }
+
+    .wsus__package_3_area li {
+        width: 50%;
+    }
+
+    .wsus__single_package_3 {
+        border-top: 1px solid rgba(4, 6, 24, 0.10);
+        border-left: 1px solid rgba(4, 6, 24, 0.10);
+    }
+
+    .wsus__package_3_area li:nth-child(2) .wsus__single_package_3,
+    .wsus__package_3_area li:first-child .wsus__single_package_3 {
+        border-top: 0;
+    }
+
+    .wsus__single_package_3 {
+        padding: 20px;
+    }
+
+    .wsus__single_package_3_img {
+        height: 505px;
+    }
+
+    .wsus__why_choose_3_text ul li .text {
+        width: 78%;
+    }
+
+    .wsus__why_choose_3_img {
+        height: 465px;
+    }
+
+    .wsus__why_choose_3_img p {
+        right: 0;
+    }
+
+    .wsus__destination_3_item .text {
+        width: 63%;
+    }
+
+    .wsus__offer_3 p,
+    .wsus__offer_3 p span {
+        font-size: 38px;
+        max-width: 50%;
+    }
+
+    .wsus__single_blog_3_text {
+        max-width: 60%;
+    }
+
+    .footer_3_content {
+        border-right: 0;
+        border-bottom: 0;
+    }
+
+    .footer_3_content>li {
+        width: 50%;
+        border-left: 0;
+        padding: 50px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+        align-items: start;
+        border-right: 1px solid rgba(255, 255, 255, 0.14);
+    }
+
+    .footer_3_content li .wsus__footer_link {
+        margin-bottom: 0;
+    }
+
+    .wsus__destination_3 {
+        padding-bottom: 335px;
+    }
+
+    .main_menu_3 .right_menu_3 {
+        background: #193180;
+        border-top: 1px solid rgba(255, 255, 255, 0.10);
+    }
+
+    .home_3_offcanvas .offcanvas-body {
+        padding: 35px;
+    }
+
+    .wsus__offcanvas_blog ul li .text {
+        width: 67%;
+    }
+
+    .wsus__why_choose_3 .section_heading h2,
+    .wsus__why_choose_3 .section_heading h2 span {
+        font-size: 38px;
+    }
+
+    .wsus__single_blog_3 {
+        padding: 15px;
+    }
+
+    .wsus__single_blog_3_img {
+        width: 190px;
+        margin-right: 20px;
+    }
+
+    .wsus__single_blog_3_text {
+        max-width: 50%;
+    }
+
+    .wsus__single_blog_3_text ul {
+        gap: 10px;
+    }
+
+    .wsus__single_blog_3_text p {
+        margin-bottom: 20px;
+    }
+
+    /*===========================
+        HOME PAGE 03 END
+    ===========================*/
+    .wsus__breadcrumb_overlay {
+        padding: 180px 0px 110px 0px;
+    }
+
+    .wsus__single_team {
+        height: 580px;
+    }
+
+    .wsus__agent_profile_text {
+        margin-left: 0;
+    }
+
+    .wsus__agent_profile .common_btn {
+        margin-bottom: 25px;
+    }
+
+    .wsus__agent_profile_text .info li {
+        width: 100%;
+    }
+
+    .wsus__agent_profile_text .link li:first-child {
+        width: auto;
+    }
+
+    /*===========================
+        BLOG DETAILS START
+    ===========================*/
+    .wsus__blog_details_banner_text {
+        padding: 40px;
+    }
+
+    .wsus__blog_details_banner_text h2 {
+        font-size: 34px;
+    }
+
+    .wsus__blog_details_banner_text p {
+        width: 80%;
+    }
+
+    .wsus__blog_details_text h1,
+    .wsus__blog_details_text h2,
+    .wsus__blog_details_text h3,
+    .wsus__blog_details_text h4,
+    .wsus__blog_details_text h5,
+    .wsus__blog_details_text h6 {
+        max-width: 90%;
+    }
+
+    .wsus__details_small_img_area .img {
+        height: 195px;
+    }
+
+    .wsus__blog_det_share .share {
+        margin-top: 25px;
+    }
+
+    .wsus__single_comment .text {
+        width: 89%;
+    }
+
+    .wsus__single_comment.reply .text {
+        width: 87%;
+    }
+
+    .wsus__left_sidebar_wizard {
+        padding: 16px 20px 20px 20px;
+    }
+
+    .wsus__sidebar_blog ul li .img {
+        margin-right: 10px;
+    }
+
+    .wsus__sidebar_blog ul li .text {
+        width: 60%;
+    }
+
+    .wsus__sidebar_contact .text {
+        padding: 25px;
+    }
+
+    .wsus__blog_details_banner_img {
+        height: 340px;
+    }
+
+    /*===========================
+        BLOG DETAILS END
+    ===========================*/
+
+    /*===========================
+        HOTEL DETAILS START
+    ===========================*/
+    .hotel_details_slider_item {
+        height: 410px;
+    }
+
+    .wsus__details_aminities ul li {
+        width: 48%;
+    }
+
+    .wsus__hotel_details_sidebar {
+        padding-left: 0;
+    }
+
+    .wsus__sidebar_booking {
+        padding: 15px;
+    }
+
+    .wsus__sidebar_author {
+        height: 320px;
+    }
+
+    .hotel_room .wsus__common_card_img {
+        height: 210px;
+    }
+
+    /*===========================
+        HOTEL DETAILS END
+    ===========================*/
+
+    /*===========================
+        BOAT GRID START
+    ===========================*/
+    .car_slider_large_img {
+        height: 340px;
+    }
+
+    .wsus__boat_grid_view .wsus__common_card_img {
+        height: 150px;
+    }
+
+    /*===========================
+        BOAT GRID END
+    ===========================*/
+
+    /*===========================
+        BOAT LIST START
+    ===========================*/
+    .wsus__single_list_item_img {
+        width: 45%;
+    }
+
+    .wsus__single_list_item_text .wsus__common_card_text {
+        padding: 0px 0px 0px 25px;
+    }
+
+    .wsus__single_list_item_text {
+        width: 55%;
+    }
+
+    .car_list ul {
+        margin-bottom: 20px;
+    }
+
+    .wsus__single_list_item_text .wsus__common_card_text_footer {
+        padding: 10px 20px 0px 25px;
+    }
+
+    /*===========================
+        BOAT LIST END
+    ===========================*/
+
+    /*===========================
+        CONTACT START
+    ===========================*/
+    .wsus__contact_form form {
+        padding: 25px 320px 80px 50px;
+    }
+
+    .wsus__contact_img {
+        width: 280px;
+        height: 445px;
+    }
+
+    /*===========================
+        CONTACT END
+    ===========================*/
+
+    /*===========================
+        EVENT DETAILS START
+    ===========================*/
+    .wsus__details_snapshot ul li {
+        width: 47%;
+    }
+
+    .wsus__sidebar_countdown .simply-countdown {
+        justify-content: start;
+        gap: 10px;
+    }
+
+    .wsus__sidebar_countdown .simply-amount {
+        width: 64px;
+        height: 65px;
+        line-height: 65px;
+    }
+
+    .wsus__sidebar_countdown .simply-word {
+        font-size: 13px;
+    }
+
+    /*===========================
+        EVENT DETAILS END
+    ===========================*/
+
+    .wsus__hotel_grid_view .wsus__common_card_img {
+        height: 150px;
+    }
+
+    .wsus__single_list_item_text .wsus__common_card_text .title {
+        padding-right: 0;
+        font-size: 18px;
+    }
+
+    .wsus__single_list_item_text .bookmark {
+        top: -15px;
+    }
+
+    .wsus__packages_page .wsus__single_package_3_img {
+        height: 355px;
+    }
+
+    /*===========================
+        SERVICES START
+    ===========================*/
+    .wsus_service_info_text .section_heading h2,
+    .wsus_service_info_text .section_heading h2 span {
+        font-size: 28px;
+    }
+
+    .wsus__single_services {
+        padding: 25px;
+    }
+
+    .wsus__single_services a {
+        font-size: 16px;
+    }
+
+    .wsus__service_are_banner {
+        height: 420px;
+    }
+
+    .wsus__service_video h2 {
+        font-size: 60px;
+    }
+
+    .wsus__service_contact_form {
+        padding: 35px 10px 35px 35px;
+    }
+
+    .wsus__service_contact_img {
+        margin-left: 0;
+        height: 100%;
+    }
+
+    .wsus__service_contact_form h2 {
+        font-size: 38px;
+    }
+
+    /*===========================
+        SERVICES END
+    ===========================*/
 }
-
-
 
 @media (min-width: 768px) and (max-width: 991.99px) {
-    
-      
- 
-  
+
+    /*===========================
+        HOME PAGE 01 START
+    ===========================*/
+    .main_menu .navbar-brand {
+        width: 115px;
+        margin-left: 12px;
+    }
+
+    .main_menu .container {
+        padding: 20px 0px;
+    }
+
+    .main_menu .navbar-toggler {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        padding: 0;
+        border-radius: 3px;
+        background: var(--colorPrimary);
+        color: var(--colorWhite);
+        margin-right: 12px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+        -o-border-radius: 3px;
+    }
+
+    .main_menu .navbar-toggler.show {
+        background: var(--colorRed);
+    }
+
+    .main_menu .navbar-toggler .close_icon_close {
+        display: none;
+    }
+
+    .main_menu .navbar-toggler.show .menu_icon_bar {
+        display: none;
+    }
+
+    .main_menu .navbar-toggler.show .close_icon_close {
+        display: block;
+    }
+
+    .main_menu .navbar-nav .nav-item .nav-link::after {
+        display: none;
+    }
+
+    .main_menu #navbarNav {
+        margin-top: 20px;
+    }
+
+    .main_menu .navbar-nav {
+        line-height: 55px;
+        background: var(--colorWhite);
+        border-top: 1px solid var(--colorPrimary);
+        padding: 15px 0px;
+    }
+
+    .main_menu .right_menu {
+        background: var(--colorWhite);
+        padding: 20px;
+        border-top: 1px solid rgba(4, 6, 24, 0.10);
+        border-bottom: 1px solid var(--colorPrimary);
+    }
+
+    .wsus__adv_search_area.show_search {
+        top: 105%;
+    }
+
+    .main_menu .submenu {
+        left: 20px;
+        width: 200px;
+    }
+
+    .wsus__banner {
+        height: auto;
+    }
+
+    .wsus__banner_text h1,
+    .wsus__banner_text h1 span {
+        max-width: 100%;
+    }
+
+    .wsus__banner_text h1 span {
+        width: 100%;
+        display: block;
+    }
+
+    .wsus__banner_text {
+        padding-top: 240px;
+    }
+
+    .wsus__banner_text .ah-headline.clip span {
+        display: block;
+    }
+
+    .ah-headline.clip .ah-words-wrapper::before {
+        top: 5px;
+    }
+
+    .wsus__popular_flight_item .text a {
+        font-size: 16px;
+    }
+
+    .wsus__banner_aearch .nav-pills {
+        padding: 20px 30px;
+    }
+
+    .wsus__banner_aearch form {
+        padding: 20px;
+    }
+
+    .wsus__banner_aearch form ul {
+        width: 96%;
+    }
+
+    .wsus__banner_aearch form ul li {
+        width: 49%;
+    }
+
+    .wsus__banner_aearch form ul li .text {
+        width: 72%;
+    }
+
+    .wsus__banner_aearch form>button {
+        width: 96%;
+        margin-top: 10px;
+    }
+
+    .wsus__adv_search_icon {
+        top: 17px;
+    }
+
+    .wsus__banner_aearch form>button>i {
+        display: inline;
+        width: auto;
+        margin-top: 0;
+        margin-right: 10px;
+    }
+
+    .wsus__banner_overlay {
+        padding-bottom: 100px;
+    }
+
+    .section_heading h2,
+    .section_heading h2 span {
+        font-size: 38px;
+    }
+
+    .wsus__destinations::after,
+    .section_heading h2::after {
+        display: none;
+    }
+
+    .section_heading h2 span::after {
+        height: 7px;
+    }
+
+    .wsus__adv_search_area .select2-container {
+        margin-top: 10px;
+    }
+
+    .wsus__adv_search_area {
+        padding: 25px;
+    }
+
+    .wsus__offer_item .text {
+        padding: 40px;
+        max-width: 38%;
+    }
+
+    .wsus__offer_item_large .text {
+        max-width: 60%;
+    }
+
+    .wsus__offer_item {
+        height: 320px;
+    }
+
+    .wsus__single_destinatiom {
+        height: 415px;
+    }
+
+    .filter_button .nav-tabs {
+        gap: 15px;
+    }
+
+    .wsus__common_card_img {
+        height: 165px;
+    }
+
+    .wsus__common_card_text {
+        padding: 10px 20px 20px 20px;
+    }
+
+    .wsus__common_card_text .location {
+        font-size: 13px;
+    }
+
+    .wsus__common_card_text .title {
+        font-size: 18px;
+    }
+
+    .wsys__why_choose_us .section_heading h2 span::after {
+        height: 9px;
+    }
+
+    .wsus__popular_flight_banner {
+        margin-bottom: 25px;
+        height: 510px;
+    }
+
+    .wsus__popular_flight_item .text {
+        padding: 14px;
+    }
+
+    .wsus__popular_flight_area::after {
+        display: none;
+    }
+
+    .wsus__testimonial_bg {
+        padding: 40px;
+    }
+
+    .wsus__single_testimonial {
+        margin: 25px 10px 0px 10px;
+    }
+
+    .wsus__single_testimonial .descroption {
+        font-size: 15px;
+        line-height: initial;
+    }
+
+    .wsus__counter_area li {
+        width: 50%;
+        border-bottom: 1px solid rgba(4, 6, 24, 0.14);
+    }
+
+    .wsus__counter_area li:nth-child(2) {
+        border-right: 0;
+    }
+
+    .wsus__counter_area li:nth-child(3) {
+        border-bottom: 0;
+    }
+
+    .wsus__download_text {
+        margin-top: 10px;
+    }
+
+    .wsus__download_img {
+        margin-top: 0px;
+        width: 290px;
+        height: auto;
+    }
+
+    .wsus__download_text h5,
+    .wsus__download_text h5 span {
+        font-size: 28px;
+        line-height: initial;
+    }
+
+    .wsus__blog .section_heading span::after {
+        height: 9px;
+    }
+
+    .wsus__single_blog_img {
+        height: 195px;
+    }
+
+    .wsus__single_blog_text {
+        padding: 20px 15px 15px 15px;
+    }
+
+    .wsus__single_blog_text p {
+        margin-bottom: 15px;
+    }
+
+    .wsus__footer_banner {
+        display: none;
+    }
+
+    .wsus__newslwtter_bg {
+        padding: 50px;
+    }
+
+    .wsus__newslwtter_bg .text {
+        width: 100%;
+    }
+
+    .wsus__newslwtter_bg form {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .wsus__footer_link {
+        padding-left: 0;
+    }
+
+    .wsus__footer_link ul li a {
+        margin-top: 20px;
+    }
+
+    .progress-wrap {
+        right: 20px;
+        bottom: 20px;
+    }
+
+    .wsus__banner_aearch .quentity_dropdown {
+        margin-top: 9px;
+    }
+
+    /*===========================
+        HOME PAGE 01 END
+    ===========================*/
+
+    /*===========================
+        HOME PAGE 02 START
+    ===========================*/
+    .wsus__banner_2 {
+        height: 500px;
+        margin-bottom: 290px;
+    }
+
+    .wsus__banner_2 .wsus__banner_text h1 {
+        font-size: 50px;
+        max-width: 75%;
+        line-height: initial;
+    }
+
+    .wsus__banner_2 .wsus__banner_aearch {
+        margin-top: 30px;
+    }
+
+    .wsus__banner_2_content {
+        margin-top: -420px;
+    }
+
+    .destinatiom_2_last_item .text_2 {
+        padding: 25px;
+    }
+
+    .wsus__offer_package_item .text {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .wsus__offer_package_item {
+        height: 215px;
+    }
+
+    .wsus__filter_2 .filter_button .nav-tabs {
+        margin-top: 45px;
+    }
+
+    .wsus__promo_app_download h3,
+    .wsus__promo_code h3,
+    .wsus__promo_code h3 span {
+        max-width: 50%;
+    }
+
+    .wsus__promo_code form button {
+        top: 4px;
+    }
+
+    .wsus__video_text::after,
+    .wsus__video::after {
+        display: none;
+    }
+
+    .wsus__video_text h2 {
+        font-size: 32px;
+        max-width: 55%;
+    }
+
+    .wsus__video_text .circle_box {
+        top: -30px;
+    }
+
+    .wsus__testimonial_2_item {
+        padding: 30px;
+    }
+
+    .wsus__testimonial_2_item .description {
+        font-size: 14px;
+    }
+
+    .wsus__single_blog_2 {
+        height: 385px;
+    }
+
+    .instagram_single_photo {
+        height: 265px;
+    }
+
+    .wsus__footer_logo_area {
+        margin-bottom: 50px;
+    }
+
+    .main_menu_2 .navbar-nav,
+    .main_menu_2 .right_menu {
+        background: #193180;
+        border-top: 1px solid var(--colorPrimary);
+    }
+
+    .main_menu .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .destinatiom_2_last_item img {
+        max-width: 336px;
+    }
+
+    .wsus__common_card_2_img {
+        height: 370px;
+    }
+
+    .wsus__single_destinatiom_2 {
+        height: 280px;
+    }
+
+    .container_large {
+        max-width: 720px;
+    }
+
+    .footer_2 .wsus__footer_link ul li a {
+        font-size: 14px;
+    }
+
+    .footer_2 .wsus__footer_contact ul li .text a,
+    .footer_2 .wsus__footer_contact ul li .text p {
+        font-size: 14px;
+    }
+
+    .wsus__banner_2 .wsus__banner_text {
+        padding-top: 160px;
+    }
+
+    /*===========================
+        HOME PAGE 02 END
+    ===========================*/
+
+    /*===========================
+        HOME PAGE 03 START
+    ===========================*/
+    .video-background {
+        height: 700px !important;
+    }
+
+    .wsus__banner_3 .wsus__banner_text {
+        padding-top: 255px;
+    }
+
+    .wsus__banner_text_3 p {
+        max-width: 75%;
+    }
+
+    .wsus__banner_text_3 h1 {
+        margin-bottom: 20px;
+        font-size: 66px;
+        width: 80%;
+    }
+
+    .wsus__banner_text_3 .wsus__banner_aearch .nav-pills {
+        margin-top: 50px;
+    }
+
+    .wsus__banner_3 {
+        background: none !important;
+    }
+
+    .wsus__package_3 {
+        padding-top: 115px !important;
+    }
+
+    .wsus__package_3_area li {
+        width: 50%;
+    }
+
+    .wsus__single_package_3 {
+        border-top: 1px solid rgba(4, 6, 24, 0.10);
+        border-left: 1px solid rgba(4, 6, 24, 0.10);
+    }
+
+    .wsus__package_3_area li:nth-child(2) .wsus__single_package_3,
+    .wsus__package_3_area li:first-child .wsus__single_package_3 {
+        border-top: 0;
+    }
+
+    .wsus__single_package_3 {
+        padding: 20px;
+    }
+
+    .wsus__single_package_3_img {
+        height: 370px;
+    }
+
+    .wsus__why_choose_3_text ul li .text {
+        width: 78%;
+    }
+
+    .wsus__why_choose_3_img {
+        height: 710px;
+        margin-top: 25px;
+    }
+
+    .wsus__why_choose_3_img p {
+        right: 0;
+    }
+
+    .wsus__destination_3_item .img {
+        margin-right: 20px;
+    }
+
+    .wsus__destination_3_item .text {
+        width: 55%;
+    }
+
+    .wsus__destination_3_item .text a {
+        font-size: 15px;
+    }
+
+    .wsus__offer_3 {
+        background-position: center left !important;
+        padding: 120px 0px !important;
+    }
+
+    .wsus__offer_3 p,
+    .wsus__offer_3 p span {
+        font-size: 44px;
+        max-width: 75%;
+    }
+
+    .wsus__single_blog_3_text {
+        max-width: 60%;
+    }
+
+    .footer_3_content {
+        border-right: 0;
+        border-bottom: 0;
+    }
+
+    .footer_3_content>li {
+        width: 50%;
+        border-left: 0;
+        padding: 40px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+        align-items: start;
+        border-right: 1px solid rgba(255, 255, 255, 0.14);
+    }
+
+    .footer_3_content li .wsus__footer_link {
+        margin-bottom: 0;
+    }
+
+    .wsus__destination_3 {
+        padding-bottom: 335px;
+    }
+
+    .main_menu_3 .right_menu_3 {
+        background: #193180;
+        border-top: 1px solid rgba(255, 255, 255, 0.10);
+    }
+
+    .home_3_offcanvas .offcanvas-body {
+        padding: 35px;
+    }
+
+    .wsus__offcanvas_blog ul li .text {
+        width: 67%;
+    }
+
+    /*===========================
+        HOME PAGE 03 END
+    ===========================*/
+
+    /*===========================
+        ABOUT US START
+    ===========================*/
+    .wsus__breadcrumb_text h1 {
+        font-size: 42px;
+    }
+
+    .wsus__breadcrumb_overlay {
+        padding: 160px 0px 85px 0px;
+    }
+
+    .wsus__about_story_text h2 {
+        font-size: 38px;
+    }
+
+    .wsus__single_team {
+        height: 425px;
+    }
+
+    /*===========================
+        ABOUT US END
+    ===========================*/
+
+    .wsus__agent_profile_text {
+        margin-left: 0;
+        margin-top: 25px;
+    }
+
+    .wsus__agent_profile_text .link li:first-child {
+        width: auto;
+    }
+
+    .wsus__agent_profile .common_btn {
+        margin-bottom: 25px;
+    }
+
+    /*===========================
+        BLOG DETAILS START
+    ===========================*/
+    .wsus__blog_details_banner_text {
+        padding: 40px;
+    }
+
+    .wsus__blog_details_banner_text p {
+        width: 100%;
+    }
+
+    .wsus__blog_details_banner_img {
+        height: 520px;
+    }
+
+    .wsus__blog_details_text h1,
+    .wsus__blog_details_text h2,
+    .wsus__blog_details_text h3,
+    .wsus__blog_details_text h4,
+    .wsus__blog_details_text h5,
+    .wsus__blog_details_text h6 {
+        max-width: 100%;
+    }
+
+    .wsus__details_small_img_area .img {
+        height: 220px;
+    }
+
+    .wsus__blog_det_share .share {
+        margin-top: 25px;
+    }
+
+    .wsus__next_prev_btn li a p {
+        max-width: 100%;
+    }
+
+    .wsus__single_comment .text {
+        width: 90%;
+    }
+
+    .wsus__single_comment.reply .text {
+        width: 90.5%;
+    }
+
+    .wsus__single_comment.reply {
+        margin-left: 0;
+    }
+
+    .wsus__comment_input_area {
+        margin-bottom: 25px;
+    }
+
+    .wsus__sidebar_blog ul li .text {
+        width: 72%;
+    }
+
+    /*===========================
+        BLOG DETAILS END
+    ===========================*/
+
+    /*===========================
+        HOTEL DETAILS START
+    ===========================*/
+    .hotel_details_slider_item {
+        height: 465px;
+    }
+
+    .wsus__details_aminities ul li {
+        width: 48%;
+    }
+
+    .wsus__hotel_details_sidebar {
+        padding-left: 0;
+    }
+
+    .wsus__sidebar_author {
+        height: 500px;
+    }
+
+    .hotel_room .wsus__common_card_img {
+        height: 235px;
+    }
+
+    /*===========================
+        HOTEL DETAILS END
+    ===========================*/
+
+    /*===========================
+        BOAT GRID START
+    ===========================*/
+    .car_slider_large_img {
+        height: 385px;
+    }
+
+    .wsus__boat_grid_view .wsus__pagination {
+        margin-bottom: 25px;
+    }
+
+    /*===========================
+        BOAT GRID END
+    ===========================*/
+
+    /*===========================
+        BOAT LIST START
+    ===========================*/
+    .wsus__single_list_item_img {
+        width: 45%;
+    }
+
+    .wsus__single_list_item_text {
+        width: 55%;
+    }
+
+    .wsus__single_list_item_text .wsus__common_card_text {
+        padding: 0px 0px 0px 25px;
+    }
+
+    .wsus__single_list_item_text .wsus__common_card_text_footer {
+        padding: 10px 20px 0px 25px;
+    }
+
+    .car_list ul {
+        margin-bottom: 15px;
+    }
+
+    .wsus__boat_list_view .wsus__pagination {
+        margin-bottom: 25px;
+    }
+
+    .car_list .author_img {
+        top: -15px;
+    }
+
+    .wsus__packages_page .wsus__pagination,
+    .wsus__hotel_grid_view .wsus__pagination,
+    .wsus__hotel_list_view .wsus__pagination,
+    .wsus__event_grid_view .wsus__pagination,
+    .wsus__event_list_view .wsus__pagination,
+    .wsus__car_grid_view .wsus__pagination,
+    .wsus__car_list_view .wsus__pagination {
+        margin-bottom: 25px;
+    }
+
+    /*===========================
+        BOAT LIST START
+    ===========================*/
+
+    /*===========================
+        CONTACT START
+    ===========================*/
+    .wsus__contact_form h3 {
+        font-size: 38px;
+    }
+
+    .wsus__contact_form form {
+        padding: 35px;
+    }
+
+    .wsus__contact_img {
+        display: none;
+    }
+
+    .wsus__contact_info {
+        padding: 35px;
+    }
+
+    .contact_map {
+        height: 350px;
+    }
+
+    /*===========================
+        CONTACT END
+    ===========================*/
+    .wsus__details_snapshot ul li {
+        width: 45%;
+    }
+
+    .wsus__package_details .hotel_details_slider_item {
+        height: 310px;
+    }
+
+    .wsus__package_details .wsus__accordian_area {
+        margin-bottom: 25px;
+    }
+
+    .wsus__packages_page .wsus__single_package_3_img {
+        height: 405px;
+    }
+
+    /*===========================
+        SERVICES START
+    ===========================*/
+    .wsus_service_info_img {
+        margin-top: 25px;
+    }
+
+    .wsus__service_are_banner {
+        height: auto;
+    }
+
+    .wsus__single_services {
+        padding: 30px;
+    }
+
+    .wsus__service_video h2 {
+        font-size: 48px;
+    }
+
+    .wsus__service_contact_form {
+        padding: 40px;
+    }
+
+    .wsus__service_contact_form h2 {
+        font-size: 34px;
+    }
+
+    .wsus__service_contact_img {
+        margin-left: 0;
+    }
+
+    .wsus__service_are_banner {
+        display: none;
+    }
+
+    .wsus__service_video_img .circle_box_bg {
+        top: -155px;
+        right: 30px;
+    }
+
+    /*===========================
+        SERVICES END
+    ===========================*/
 }
-
-
-
-
 
 @media (min-width: 576px) and (max-width: 767.99px) {
-    
-      
- 
-  
+
+    /*===========================
+        HOME PAGE 01 START
+    ===========================*/
+    .main_menu .navbar-brand {
+        width: 115px;
+        margin-left: 12px;
+    }
+
+    .main_menu .container {
+        padding: 20px 0px;
+    }
+
+    .main_menu .navbar-toggler {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        padding: 0;
+        border-radius: 3px;
+        background: var(--colorPrimary);
+        color: var(--colorWhite);
+        margin-right: 12px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+        -o-border-radius: 3px;
+    }
+
+    .main_menu .navbar-toggler.show {
+        background: var(--colorRed);
+    }
+
+    .main_menu .navbar-toggler .close_icon_close {
+        display: none;
+    }
+
+    .main_menu .navbar-toggler.show .menu_icon_bar {
+        display: none;
+    }
+
+    .main_menu .navbar-toggler.show .close_icon_close {
+        display: block;
+    }
+
+    .main_menu .navbar-nav .nav-item .nav-link::after {
+        display: none;
+    }
+
+    .main_menu #navbarNav {
+        margin-top: 20px;
+    }
+
+    .main_menu .navbar-nav {
+        line-height: 55px;
+        background: var(--colorWhite);
+        border-top: 1px solid var(--colorPrimary);
+        padding: 15px 0px;
+    }
+
+    .main_menu .right_menu {
+        background: var(--colorWhite);
+        padding: 20px;
+        border-top: 1px solid rgba(4, 6, 24, 0.10);
+        border-bottom: 1px solid var(--colorPrimary);
+    }
+
+    .wsus__adv_search_area.show_search {
+        top: 105%;
+    }
+
+    .main_menu .submenu {
+        left: 20px;
+        width: 200px;
+    }
+
+    .wsus__banner {
+        height: auto;
+    }
+
+    .wsus__banner_text h1,
+    .wsus__banner_text h1 span {
+        font-size: 62px;
+        max-width: 100%;
+    }
+
+    .wsus__banner_text h1 span {
+        width: 100%;
+        display: block;
+    }
+
+    .wsus__banner_text {
+        padding-top: 180px;
+    }
+
+    .wsus__banner_text .ah-headline.clip span {
+        display: block;
+    }
+
+    .ah-headline.clip .ah-words-wrapper::before {
+        top: 5px;
+    }
+
+    .wsus__banner_aearch .nav-pills {
+        padding: 20px;
+        gap: 10px;
+    }
+
+    .wsus__banner_aearch .nav-pills .nav-item {
+        min-width: 150px;
+    }
+
+    .wsus__banner_aearch .nav-pills .nav-item button::after {
+        height: 1px;
+        bottom: -5px;
+    }
+
+    .wsus__banner_aearch form {
+        padding: 20px;
+    }
+
+    .wsus__banner_aearch form ul {
+        width: 94%;
+    }
+
+    .wsus__banner_aearch form ul li {
+        width: 100%;
+    }
+
+    .wsus__banner_aearch form ul li .text {
+        width: 72%;
+    }
+
+    .wsus__banner_aearch form>button {
+        width: 94%;
+        margin-top: 10px;
+    }
+
+    .wsus__adv_search_icon {
+        top: 17px;
+    }
+
+    .wsus__banner_aearch form>button>i {
+        display: inline;
+        width: auto;
+        margin-top: 0;
+        margin-right: 10px;
+    }
+
+    .wsus__banner_overlay {
+        padding-bottom: 100px;
+    }
+
+    .section_heading h2,
+    .section_heading h2 span {
+        font-size: 32px;
+    }
+
+    .wsus__destinations::after,
+    .section_heading h2::after {
+        display: none;
+    }
+
+    .section_heading h2 span::after {
+        height: 7px;
+    }
+
+    .wsus__adv_search_area .select2-container {
+        margin-top: 10px;
+    }
+
+    .wsus__adv_search_area {
+        padding: 25px;
+    }
+
+    .wsus__offer_item .text {
+        padding: 40px;
+        max-width: 100%;
+    }
+
+    .wsus__offer_item {
+        height: 300px;
+    }
+
+    .wsus__single_destinatiom {
+        height: 305px;
+    }
+
+    .filter_button .nav-tabs {
+        gap: 15px;
+    }
+
+    .wsus__common_card_img {
+        height: 255px;
+    }
+
+    .wsys__why_choose_us .section_heading h2 span::after {
+        height: 5px;
+    }
+
+    .wsus__popular_flight_banner {
+        margin-bottom: 25px;
+        height: 510px;
+    }
+
+    .wsus__popular_flight_item .text {
+        max-width: 100%;
+    }
+
+    .wsus__popular_flight_area::after {
+        display: none;
+    }
+
+    .wsus__testimonial_bg {
+        padding: 35px;
+    }
+
+    .wsus__single_testimonial {
+        margin: 25px 10px 0px 10px;
+    }
+
+    .wsus__single_testimonial .descroption {
+        font-size: 15px;
+        line-height: initial;
+    }
+
+    .wsus__counter_area li {
+        width: 100%;
+        border-right: 0;
+        border-bottom: 1px solid rgba(4, 6, 24, 0.14);
+    }
+
+    .wsus__download_text h5,
+    .wsus__download_text h5 span {
+        font-size: 34px;
+        line-height: initial;
+    }
+
+    .wsus__download_text {
+        margin-top: 25px;
+    }
+
+    .wsus__download_img {
+        margin: 0 auto;
+        margin-top: 10px;
+        width: 300px;
+        height: auto;
+    }
+
+    .wsus__blog .section_heading span::after {
+        height: 9px;
+    }
+
+    .wsus__single_blog_img {
+        height: 305px;
+    }
+
+    .wsus__single_blog_text p {
+        margin-bottom: 15px;
+    }
+
+    .wsus__footer_banner {
+        display: none;
+    }
+
+    .wsus__newslwtter_bg {
+        padding: 35px;
+    }
+
+    .wsus__newslwtter_bg .text {
+        width: 100%;
+    }
+
+    .wsus__newslwtter_bg form {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .wsus__footer_link {
+        padding-left: 0;
+        margin-bottom: 50px;
+    }
+
+    .wsus__footer_link ul li a {
+        margin-top: 15px;
+    }
+
+    .wsus__footer_copyright_text p {
+        margin-bottom: 20px;
+    }
+
+    .progress-wrap {
+        right: 20px;
+        bottom: 20px;
+    }
+
+    .wsus__banner_aearch .quentity_dropdown {
+        margin-top: 10px;
+    }
+
+    /*===========================
+        HOME PAGE 02 END
+    ===========================*/
+
+    /*===========================
+        HOME PAGE 02 START
+    ===========================*/
+    .wsus__banner_2 {
+        height: 475px;
+        margin-bottom: 330px;
+    }
+
+    .wsus__banner_2 .wsus__banner_text h1 {
+        font-size: 42px;
+        max-width: 100%;
+        line-height: initial;
+    }
+
+    .wsus__banner_2 .wsus__banner_aearch {
+        margin-top: 30px;
+    }
+
+    .wsus__banner_2_content {
+        margin-top: -350px;
+    }
+
+    .wsus__banner_2 .wsus__banner_aearch .nav-pills {
+        border-radius: 10px;
+    }
+
+    .destinatiom_2_last_item {
+        overflow: initial;
+        margin-bottom: 215px;
+    }
+
+    .destinatiom_2_last_item .text_2 {
+        position: relative;
+        height: auto;
+        background: linear-gradient(176deg, rgba(14, 119, 243, 0.10) 3.35%, rgba(236, 51, 151, 0.06) 96.56%);
+        width: 100%;
+        padding: 30px;
+        border-radius: 0px 0px 10px 10px;
+    }
+
+    .wsus__filter_2 .filter_button .nav-tabs {
+        margin-top: 45px;
+    }
+
+    .wsus__promo_app_download h3,
+    .wsus__promo_code h3,
+    .wsus__promo_code h3 span {
+        max-width: 70%;
+    }
+
+    .wsus__promo_code form button {
+        top: 4px;
+    }
+
+    .wsus__promo_app_download .img {
+        width: 100%;
+        height: auto;
+    }
+
+    .wsus__promo_app_download .text {
+        width: 100%;
+    }
+
+    .wsus__video_text::after,
+    .wsus__video::after {
+        display: none;
+    }
+
+    .wsus__video_text h2 {
+        font-size: 24px;
+        max-width: 55%;
+    }
+
+    .wsus__video_text .circle_box {
+        top: -30px;
+    }
+
+    .wsus__testimonial_2_item .description {
+        font-size: 14px;
+    }
+
+    .wsus__single_blog_2 {
+        height: 590px;
+    }
+
+    .instagram_single_photo {
+        height: 300px;
+    }
+
+    .wsus__footer_logo_area {
+        margin-bottom: 50px;
+    }
+
+    .main_menu_2 .navbar-nav,
+    .main_menu_2 .right_menu {
+        background: #193180;
+        border-top: 1px solid var(--colorPrimary);
+    }
+
+    .main_menu .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .destinatiom_2_last_item img {
+        max-width: 100%;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .wsus__common_card_2_img {
+        height: 565px;
+    }
+
+    .wsus__single_destinatiom_2 {
+        height: 350px;
+    }
+
+    .container_large {
+        max-width: 540px;
+    }
+
+    /*===========================
+        HOME PAGE 02 END
+    ===========================*/
+
+    /*===========================
+        HOME PAGE 03 START
+    ===========================*/
+    .wsus__header_right {
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .video-background {
+        height: 700px !important;
+    }
+
+    .wsus__banner_3 .wsus__banner_text {
+        padding-top: 220px;
+    }
+
+    .wsus__banner_text_3 p {
+        max-width: 100%;
+        font-size: 16px;
+    }
+
+    .wsus__banner_text_3 h1 {
+        margin-bottom: 20px;
+    }
+
+    .wsus__banner_text_3 .wsus__banner_aearch .nav-pills {
+        margin-top: 50px;
+    }
+
+    .wsus__banner_3 {
+        background: none !important;
+    }
+
+    .wsus__package_3_area li {
+        width: 100%;
+    }
+
+    .wsus__single_package_3 {
+        border-top: 1px solid rgba(4, 6, 24, 0.10);
+        border-left: 1px solid rgba(4, 6, 24, 0.10);
+    }
+
+    .wsus__package_3_area li:first-child .wsus__single_package_3 {
+        border-top: 0;
+    }
+
+    .wsus__single_package_3_img {
+        height: 525px;
+    }
+
+    .wsus__why_choose_3_text ul li .text {
+        width: 78%;
+    }
+
+    .wsus__why_choose_3_img {
+        height: 525px;
+        margin-top: 25px;
+    }
+
+    .wsus__why_choose_3_img p {
+        right: 0;
+    }
+
+    .wsus__destination_3_item .text {
+        width: 67%;
+    }
+
+    .wsus__destination_3 .all_destination a {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    .wsus__offer_3 {
+        background-position: center left !important;
+    }
+
+    .wsus__offer_3 h2 {
+        font-size: 46px;
+    }
+
+    .wsus__offer_3 p,
+    .wsus__offer_3 p span {
+        font-size: 44px;
+        max-width: 100%;
+    }
+
+    .wsus__single_blog_3_img {
+        height: auto;
+        margin-right: 20px;
+    }
+
+    .wsus__single_blog_3_text {
+        max-width: 50%;
+    }
+
+    .wsus__single_blog_3 {
+        padding: 15px;
+    }
+
+    .wsus__newslwtter_3 .wsus__newslwtter_bg {
+        padding: 35px;
+    }
+
+    .footer_3_content>li {
+        width: 100%;
+        border-left: 0;
+        padding: 35px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+        align-items: start;
+    }
+
+    .footer_3_content li .wsus__footer_link {
+        margin-bottom: 0;
+    }
+
+    .wsus__destination_3 {
+        padding-bottom: 335px;
+    }
+
+    .main_menu_3 .right_menu_3 {
+        background: #193180;
+        border-top: 1px solid rgba(255, 255, 255, 0.10);
+    }
+
+    .home_3_offcanvas .offcanvas-body {
+        padding: 35px;
+    }
+
+    .wsus__offcanvas_blog ul li .text {
+        width: 67%;
+    }
+
+    .wsus__destination_3 .all_destination {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /*===========================
+        HOME PAGE 03 END
+    ===========================*/
+
+    /*===========================
+        ABOUT US START
+    ===========================*/
+    .wsus__breadcrumb_text h1 {
+        font-size: 42px;
+    }
+
+    .wsus__breadcrumb_overlay {
+        padding: 160px 0px 85px 0px;
+    }
+
+    .wsus__about_story_text h2 {
+        font-size: 32px;
+    }
+
+    .wsus__single_team {
+        height: 655px;
+    }
+
+    /*===========================
+        ABOUT US END
+    ===========================*/
+
+    /*===========================
+        AGENT PROFILE START
+    ===========================*/
+    .wsus__agent_profile_text {
+        margin-left: 0;
+        margin-top: 25px;
+    }
+
+    .wsus__agent_tab_area .nav-link {
+        margin: 10px 0px;
+    }
+
+    .wsus__agent_profile .common_btn {
+        margin-bottom: 25px;
+    }
+
+    .wsus__agent_profile_text .link li:first-child {
+        width: auto;
+    }
+
+    /*===========================
+        AGENT PROFILE END
+    ===========================*/
+
+    /*===========================
+        BLOG DETAILS START
+    ===========================*/
+    .wsus__blog_details_banner_text {
+        padding: 40px;
+    }
+
+    .wsus__blog_details_banner_text h2 {
+        font-size: 28px;
+    }
+
+    .wsus__blog_details_banner_text p {
+        width: 100%;
+    }
+
+    .wsus__blog_details_banner_img {
+        height: 385px;
+    }
+
+    .wsus__blog_details_text .quot {
+        padding: 35px 60px 35px 40px;
+    }
+
+    .wsus__blog_details_text h1,
+    .wsus__blog_details_text h2,
+    .wsus__blog_details_text h3,
+    .wsus__blog_details_text h4,
+    .wsus__blog_details_text h5,
+    .wsus__blog_details_text h6 {
+        max-width: 100%;
+    }
+
+    .wsus__details_small_img_area .img {
+        height: 340px;
+    }
+
+    .wsus__blog_det_share .share {
+        margin-top: 25px;
+    }
+
+    .wsus__next_prev_btn li {
+        width: 100%;
+    }
+
+    .wsus__next_prev_btn li.previous a {
+        border-right: 0;
+        border-bottom: 1px solid rgba(4, 6, 24, 0.06);
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+
+    .wsus__next_prev_btn li a p {
+        max-width: 100%;
+    }
+
+    .wsus__single_comment .text {
+        width: 87%;
+    }
+
+    .wsus__single_comment.reply {
+        margin-left: 52px;
+    }
+
+    .wsus__comment_input_area {
+        margin-bottom: 25px;
+    }
+
+    .wsus__sidebar_blog ul li .text {
+        width: 75%;
+    }
+
+    .wsus__single_comment.reply .text {
+        width: 85.5%;
+    }
+
+    /*===========================
+        BLOG DETAILS END
+    ===========================*/
+
+    /*===========================
+        HOTEL DETAILS START
+    ===========================*/
+    .hotel_details_slider_item {
+        height: 550px;
+    }
+
+    .area_border h3 {
+        font-size: 24px;
+    }
+
+    .wsus__details_aminities ul li {
+        width: 48%;
+        font-size: 14px;
+    }
+
+    .wsus__hotel_details_sidebar {
+        padding-left: 0;
+    }
+
+    .wsus__sidebar_author {
+        height: 560px;
+    }
+
+    /*===========================
+        HOTEL DETAILS END
+    ===========================*/
+
+    /*===========================
+        BOAT GRID START
+    ===========================*/
+    .car_slider_large_img {
+        height: 285px;
+    }
+
+    .wsus__item_header .nice-select {
+        width: 180px;
+    }
+
+    .wsus__boat_grid_view .wsus__pagination {
+        margin-bottom: 25px;
+    }
+
+    /*===========================
+        BOAT GRID END
+    ===========================*/
+
+    /*===========================
+        BOAT LIST START
+    ===========================*/
+    .wsus__single_list_item_img {
+        height: 290px;
+        width: 100%;
+        padding: 10px 10px 10px 10px;
+    }
+
+    .wsus__single_list_item_text {
+        width: 100%;
+    }
+
+    .wsus__single_list_item_text .wsus__common_card_text {
+        padding: 20px 20px 0px 20px;
+    }
+
+    .wsus__single_list_item_text .wsus__common_card_text_footer {
+        padding: 10px 20px 20px 20px;
+    }
+
+    .wsus__boat_list_view .wsus__pagination {
+        margin-bottom: 25px;
+    }
+
+    .car_list .author_img {
+        top: 15px;
+        right: 20px;
+    }
+
+    .car_list ul {
+        margin-bottom: 15px;
+    }
+
+    .car_list .bookmark {
+        top: -60px;
+        left: 30px;
+    }
+
+    .wsus__car_grid_view .wsus__pagination,
+    .wsus__car_list_view .wsus__pagination {
+        margin-bottom: 25px;
+    }
+
+    .wsus__details_header .bookmark {
+        top: -10px;
+    }
+
+    /*===========================
+        BOAT LIST END
+    ===========================*/
+
+    /*===========================
+        CONTACT START
+    ===========================*/
+    .wsus__contact_form h3 {
+        font-size: 38px;
+    }
+
+    .wsus__contact_form form {
+        padding: 35px;
+    }
+
+    .wsus__contact_img {
+        display: none;
+    }
+
+    .wsus__contact_info {
+        padding: 35px;
+    }
+
+    .contact_map {
+        height: 300px;
+    }
+
+    /*===========================
+        CONTACT END
+    ===========================*/
+
+    /*===========================
+        EVENT DETAILS START
+    ===========================*/
+    .wsus__details_snapshot ul li {
+        width: 100%;
+    }
+
+    .wsus__sidebar_countdown .simply-countdown {
+        justify-content: start;
+        gap: 20px;
+    }
+
+    .wsus__packages_page .wsus__pagination,
+    .wsus__hotel_grid_view .wsus__pagination,
+    .wsus__hotel_list_view .wsus__pagination,
+    .wsus__event_grid_view .wsus__pagination,
+    .wsus__event_list_view .wsus__pagination {
+        margin-bottom: 25px;
+    }
+
+    /*===========================
+        EVENT DETAILS END
+    ===========================*/
+    .wsus__faq_page .section_heading h2 {
+        max-width: 100%;
+    }
+
+    .wsus__package_details .wsus__accordian_area {
+        margin-bottom: 25px;
+    }
+
+    .wsus__package_details .hotel_details_slider_item {
+        height: 230px;
+    }
+
+    .wsus__packages_page .wsus__single_package_3_img {
+        height: 620px;
+    }
+
+    /*===========================
+        SERVICES START
+    ===========================*/
+    .wsus_service_info_img {
+        height: 345px;
+        margin-top: 25px;
+    }
+
+    .wsus__service_are_banner {
+        height: auto;
+    }
+
+    .wsus__single_services {
+        padding: 30px;
+    }
+
+    .wsus__service_video h2 {
+        font-size: 34px;
+        top: 90px;
+        transform: translate(0);
+        -webkit-transform: translate(0);
+        -moz-transform: translate(0);
+        -ms-transform: translate(0);
+        -o-transform: translate(0);
+    }
+
+    .wsus__service_video_img .circle_box_bg {
+        position: initial;
+    }
+
+    .wsus__service_contact_form {
+        padding: 30px;
+    }
+
+    .wsus__service_contact_form h2 {
+        font-size: 24px;
+    }
+
+    .wsus__service_contact_img {
+        margin-left: 0;
+    }
+
+    /*===========================
+        SERVICES END
+    ===========================*/
+
+    /*===========================
+        SIGN IN START
+    ===========================*/
+    .wsus__sign_in {
+        background-position: center left !important;
+    }
+
+    .wsus__login_header li a {
+        padding: 15px;
+    }
+
+    /*===========================
+        SIGN IN END
+    ===========================*/
 }
-
-
-
-
 
 @media (max-width: 575.99px) {
-    
-      
- 
-  
+
+    /*===========================
+        HOME PAGE 01 START
+    ===========================*/
+    .main_menu .navbar-brand {
+        width: 115px;
+        margin-left: 12px;
+    }
+
+    .main_menu .container {
+        padding: 20px 0px;
+    }
+
+    .main_menu .navbar-toggler {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        padding: 0;
+        border-radius: 3px;
+        background: var(--colorPrimary);
+        color: var(--colorWhite);
+        margin-right: 12px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+        -o-border-radius: 3px;
+    }
+
+    .main_menu .navbar-toggler.show {
+        background: var(--colorRed);
+    }
+
+    .main_menu .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .main_menu .navbar-toggler .close_icon_close {
+        display: none;
+    }
+
+    .main_menu .navbar-toggler.show .menu_icon_bar {
+        display: none;
+    }
+
+    .main_menu .navbar-toggler.show .close_icon_close {
+        display: block;
+    }
+
+    .main_menu .navbar-nav .nav-item .nav-link::after {
+        display: none;
+    }
+
+    .main_menu .child_menu {
+        left: 50px;
+        border-left: 1px solid var(--colorPrimary);
+        border-top: 0;
+    }
+
+    .main_menu .submenu li:hover .child_menu {
+        top: 45px;
+    }
+
+    .main_menu #navbarNav {
+        margin-top: 19px;
+    }
+
+    .main_menu .navbar-nav {
+        line-height: 55px;
+        background: var(--colorWhite);
+        border-top: 1px solid var(--colorPrimary);
+        padding: 15px 0px;
+    }
+
+    .main_menu .right_menu {
+        background: var(--colorWhite);
+        padding: 20px;
+        border-top: 1px solid rgba(4, 6, 24, 0.10);
+        border-bottom: 1px solid var(--colorPrimary);
+    }
+
+    .main_menu .right_menu li .common_btn {
+        margin-left: 10px;
+        padding: 9px 20px;
+    }
+
+    .main_menu .right_menu>li:first-child {
+        padding-right: 10px;
+        margin-right: 10px;
+    }
+
+    .wsus__adv_search_area.show_search {
+        top: 105%;
+    }
+
+    .main_menu .submenu {
+        left: 20px;
+        width: 200px;
+    }
+
+    .wsus__banner {
+        height: auto;
+    }
+
+    .wsus__banner_text h1,
+    .wsus__banner_text h1 span {
+        font-size: 38px;
+        line-height: initial;
+        max-width: 100%;
+    }
+
+    .wsus__banner_text h1 span {
+        width: 100%;
+        display: block;
+    }
+
+    .wsus__banner_text {
+        padding-top: 180px;
+    }
+
+    .wsus__banner_text .ah-headline.clip span {
+        display: block;
+    }
+
+    .ah-headline.clip .ah-words-wrapper::before {
+        top: 5px;
+    }
+
+    .wsus__banner_aearch .nav-pills {
+        padding: 20px;
+        gap: 10px;
+    }
+
+    .wsus__banner_aearch .nav-pills .nav-item {
+        width: 48%;
+    }
+
+    .wsus__banner_aearch .nav-pills .nav-item button {
+        font-size: 13px;
+    }
+
+    .wsus__banner_aearch .nav-pills .nav-item button::after {
+        height: 1px;
+        bottom: -5px;
+    }
+
+    .wsus__banner_aearch form {
+        padding: 20px;
+    }
+
+    .wsus__banner_aearch form ul {
+        width: 90%;
+    }
+
+    .wsus__banner_aearch form ul li {
+        width: 100%;
+    }
+
+    .wsus__banner_aearch form ul li .text {
+        width: 72%;
+    }
+
+    .wsus__banner_aearch form>button {
+        width: 90%;
+        margin-top: 10px;
+    }
+
+    .wsus__adv_search_icon {
+        top: 17px;
+    }
+
+    .wsus__banner_aearch form>button>i {
+        display: inline;
+        width: auto;
+        margin-top: 0;
+        margin-right: 10px;
+    }
+
+    .wsus__banner_overlay {
+        padding-bottom: 100px;
+    }
+
+    .section_heading h2,
+    .section_heading h2 span {
+        font-size: 24px;
+    }
+
+    .wsus__destinations::after,
+    .section_heading h2::after {
+        display: none;
+    }
+
+    .section_heading h2 span::after {
+        height: 7px;
+    }
+
+    .wsus__adv_search_area .select2-container {
+        margin-top: 10px;
+    }
+
+    .wsus__adv_search_area {
+        padding: 25px;
+    }
+
+    .wsus__offer_item .text {
+        padding: 25px;
+        max-width: 100%;
+    }
+
+    .wsus__offer_item .text h3 {
+        font-size: 22px;
+    }
+
+    .wsus__offer_item {
+        height: 260px;
+    }
+
+    .wsus__single_destinatiom {
+        height: auto;
+    }
+
+    .wsus__filter .ah-headline.clip span {
+        display: block;
+        text-align: center;
+    }
+
+    .filter_button .nav-tabs {
+        gap: 25px;
+    }
+
+    .wsus__common_card_img {
+        height: auto;
+    }
+
+    .wsus__common_card_text {
+        padding: 10px 20px 20px 20px;
+    }
+
+    .title {
+        font-size: 18px;
+    }
+
+    .wsus__common_card_text_footer {
+        padding: 15px 20px;
+    }
+
+    .wsus__common_card_text_footer h5,
+    .wsus__common_card_text_footer h5 del,
+    .wsus__common_card_text_footer h5 span {
+        font-size: 16px;
+    }
+
+    .read_btn {
+        font-size: 14px;
+    }
+
+    .wsys__why_choose_us .section_heading h2 span::after {
+        height: 5px;
+    }
+
+    .wsus__popular_flight_banner {
+        margin-bottom: 25px;
+        height: auto;
+    }
+
+    .wsus__popular_flight_item {
+        padding: 25px;
+    }
+
+    .wsus__popular_flight_item .text {
+        padding: 25px 0px 0px 0px;
+        max-width: 100%;
+    }
+
+    .wsus__popular_flight_item .text a {
+        font-size: 16px;
+    }
+
+    .wsus__popular_flight_area::after {
+        display: none;
+    }
+
+    .wsus__testimonial_bg {
+        padding: 25px;
+    }
+
+    .wsus__single_testimonial {
+        margin: 25px 10px 0px 10px;
+    }
+
+    .wsus__single_testimonial .descroption {
+        font-size: 15px;
+        line-height: initial;
+    }
+
+    .wsus__counter_area li {
+        width: 100%;
+        border-right: 0;
+        border-bottom: 1px solid rgba(4, 6, 24, 0.14);
+    }
+
+    .wsus__download_text h5,
+    .wsus__download_text h5 span {
+        font-size: 24px;
+        line-height: initial;
+    }
+
+    .wsus__download_text {
+        margin-top: 25px;
+    }
+
+    .wsus__download_img {
+        width: auto;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    .wsus__blog .section_heading span::after {
+        height: 9px;
+    }
+
+    .wsus__single_blog_text {
+        padding: 15px 15px 15px 15px;
+    }
+
+    .wsus__single_blog_img {
+        height: auto;
+    }
+
+    .wsus__single_blog_text p {
+        margin-bottom: 15px;
+    }
+
+    .wsus__footer_banner {
+        display: none;
+    }
+
+    .wsus__newslwtter_bg {
+        padding: 25px;
+    }
+
+    .wsus__newslwtter_bg .text {
+        width: 100%;
+    }
+
+    .wsus__newslwtter_bg form button {
+        position: initial;
+        transform: translate(0);
+        width: 100%;
+        -webkit-transform: translate(0);
+        -moz-transform: translate(0);
+        -ms-transform: translate(0);
+        -o-transform: translate(0);
+    }
+
+    .wsus__newslwtter_bg form {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .wsus__footer_link {
+        padding-left: 0;
+        margin-bottom: 50px;
+    }
+
+    .wsus__footer_link ul li a {
+        margin-top: 15px;
+    }
+
+    .wsus__footer_copyright_text p {
+        margin-bottom: 20px;
+    }
+
+    .progress-wrap {
+        right: 20px;
+        bottom: 20px;
+    }
+
+    /*===========================
+        HOME PAGE 01 END
+    ===========================*/
+
+    /*===========================
+        HOME PAGE 02 START
+    ===========================*/
+    .wsus__banner_2 {
+        height: 500px;
+        margin-bottom: 385px;
+    }
+
+    .wsus__banner_2 .wsus__banner_text h1 {
+        font-size: 42px;
+        max-width: 100%;
+    }
+
+    .wsus__banner_2 .wsus__banner_aearch {
+        margin-top: 30px;
+    }
+
+    .wsus__banner_2_content {
+        margin-top: -350px;
+    }
+
+    .wsus__banner_2 .wsus__banner_aearch .nav-pills {
+        border-radius: 10px;
+    }
+
+    .destinatiom_2_last_item {
+        overflow: initial;
+        margin-bottom: 215px;
+    }
+
+    .destinatiom_2_last_item .text_2 {
+        position: relative;
+        height: auto;
+        background: linear-gradient(176deg, rgba(14, 119, 243, 0.10) 3.35%, rgba(236, 51, 151, 0.06) 96.56%);
+        width: 100%;
+        padding: 30px;
+        border-radius: 0px 0px 10px 10px;
+    }
+
+    .wsus__offer_package_item .text {
+        padding: 30px;
+        width: 100%;
+    }
+
+    .wsus__offer_package_item {
+        height: auto;
+    }
+
+    .wsus__filter_2 .filter_button .nav-tabs {
+        margin-top: 45px;
+    }
+
+    .wsus__promo_code {
+        padding: 30px;
+    }
+
+    .wsus__promo_app_download h3,
+    .wsus__promo_code h3,
+    .wsus__promo_code h3 span {
+        font-size: 24px;
+        max-width: 100%;
+    }
+
+    .wsus__promo_code form button {
+        position: relative;
+        width: 100%;
+        margin-top: 10px;
+        right: 0;
+        top: 0;
+    }
+
+    .wsus__promo_app_download .img {
+        width: 100%;
+        height: auto;
+    }
+
+    .wsus__promo_app_download .text {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .wsus__video_text::after,
+    .wsus__video::after {
+        display: none;
+    }
+
+    .wsus__video_text h2 {
+        font-size: 34px;
+        max-width: 100%;
+    }
+
+    .wsus__video_text .circle_box {
+        position: initial;
+        margin-top: 50px;
+    }
+
+    .wsus__testimonial_2_item {
+        padding: 30px;
+    }
+
+    .wsus__testimonial_2_item .description {
+        font-size: 14px;
+    }
+
+    .wsus__single_blog_2 {
+        height: 340px;
+    }
+
+    .instagram_single_photo {
+        height: auto;
+    }
+
+    .wsus__footer_logo_area {
+        margin-bottom: 50px;
+    }
+
+    .main_menu_2 .navbar-nav,
+    .main_menu_2 .right_menu {
+        background: #193180;
+        border-top: 1px solid var(--colorPrimary);
+    }
+
+    .main_menu_2 .right_menu li .common_btn {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    /*===========================
+        HOME PAGE 02 END
+    ===========================*/
+
+    /*===========================
+        HOME PAGE 03 START
+    ===========================*/
+    .wsus__header_right {
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .video-background {
+        height: 650px !important;
+    }
+
+    .wsus__banner_3 .wsus__banner_text {
+        padding-top: 220px;
+    }
+
+    .wsus__banner_text_3 p {
+        max-width: 100%;
+        font-size: 16px;
+    }
+
+    .wsus__banner_text_3 h1 {
+        margin-bottom: 20px;
+    }
+
+    .wsus__banner_text_3 .wsus__banner_aearch .nav-pills {
+        margin-top: 50px;
+    }
+
+    .wsus__banner_3 {
+        background: none !important;
+    }
+
+    .wsus__package_3_area li {
+        width: 100%;
+    }
+
+    .wsus__single_package_3 {
+        padding: 0;
+        border: none;
+    }
+
+    .wsus__package_3_area {
+        border: none;
+        padding: 0px 12px;
+    }
+
+    .wsus__single_package_3_img {
+        height: 360px;
+        margin-top: 25px;
+    }
+
+    .wsus__why_choose_3_text ul li .text {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .wsus__why_choose_3_img {
+        height: auto;
+        margin-top: 25px;
+    }
+
+    .wsus__why_choose_3_img p {
+        right: 0;
+        bottom: 20px;
+    }
+
+    .wsus__destination_3_item {
+        padding: 20px;
+    }
+
+    .wsus__destination_3_item .text {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .wsus__destination_3 .all_destination a {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    .wsus__offer_3 {
+        background-position: center left !important;
+    }
+
+    .wsus__offer_3 h2 {
+        font-size: 36px;
+    }
+
+    .wsus__offer_3 p,
+    .wsus__offer_3 p span {
+        font-size: 32px;
+        line-height: initial;
+        max-width: 100%;
+    }
+
+    .wsus__single_blog_3_img {
+        width: 100%;
+        height: auto;
+        margin-right: 0;
+        margin-bottom: 25px;
+    }
+
+    .wsus__single_blog_3_text {
+        max-width: 100%;
+    }
+
+    .wsus__single_blog_3 {
+        padding: 20px;
+    }
+
+    .wsus__newslwtter_3 .wsus__newslwtter_bg {
+        padding: 25px;
+    }
+
+    .footer_3_content>li {
+        width: 100%;
+        border-left: 0;
+        padding: 35px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+        align-items: start;
+    }
+
+    .footer_3_content li .wsus__footer_link {
+        margin-bottom: 0;
+    }
+
+    .wsus__destination_3 {
+        padding-bottom: 335px;
+    }
+
+    .main_menu_3 .right_menu_3 {
+        background: #193180;
+        border-top: 1px solid rgba(255, 255, 255, 0.10);
+    }
+
+    .home_3_offcanvas .offcanvas-body {
+        padding: 25px;
+    }
+
+    .wsus__destination_3 .all_destination {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /*===========================
+        HOME PAGE 03 END
+    ===========================*/
+
+    /*===========================
+        ABOUT US START
+    ===========================*/
+    .wsus__breadcrumb_text h1 {
+        font-size: 34px;
+    }
+
+    .wsus__breadcrumb_overlay {
+        padding: 140px 0px 65px 0px;
+    }
+
+    .wsus__about_story_text h2 {
+        font-size: 24px;
+    }
+
+    .wsus__single_team {
+        height: 380px;
+    }
+
+    /*===========================
+        ABOUT US END
+    ===========================*/
+
+    /*===========================
+        AGENT PROFILE START
+    ===========================*/
+    .wsus__agent_profile_text {
+        margin-left: 0;
+        margin-top: 25px;
+    }
+
+    .wsus__agent_profile_text h2 {
+        font-size: 24px;
+    }
+
+    .wsus__agent_profile_text .info li {
+        width: 100%;
+    }
+
+    .wsus__agent_tab_area .nav-link {
+        margin: 10px 0px;
+    }
+
+    .wsus__details_review_area_header h4 {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .wsus__agent_profile .common_btn {
+        margin-bottom: 25px;
+    }
+
+    /*===========================
+        AGENT PROFILE END
+    ===========================*/
+
+    /*===========================
+        BLOG DETAILS START
+    ===========================*/
+    .wsus__blog_details_banner_text {
+        padding: 20px;
+    }
+
+    .wsus__blog_details_banner_text ul {
+        gap: 15px;
+    }
+
+    .wsus__blog_details_banner_text h2 {
+        font-size: 20px;
+    }
+
+    .wsus__blog_details_banner_text p {
+        width: 100%;
+    }
+
+    .wsus__blog_details_banner_img {
+        height: auto;
+    }
+
+    .wsus__blog_details_text .quot {
+        padding: 30px;
+        font-size: 15px;
+    }
+
+    .wsus__blog_details_text h1,
+    .wsus__blog_details_text h2,
+    .wsus__blog_details_text h3,
+    .wsus__blog_details_text h4,
+    .wsus__blog_details_text h5,
+    .wsus__blog_details_text h6 {
+        max-width: 100%;
+    }
+
+    .wsus__details_small_img_area .img {
+        height: auto;
+    }
+
+    .wsus__blog_det_share .share {
+        margin-top: 25px;
+    }
+
+    .wsus__next_prev_btn li {
+        width: 100%;
+    }
+
+    .wsus__next_prev_btn li.previous a {
+        border-right: 0;
+        border-bottom: 1px solid rgba(4, 6, 24, 0.06);
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+
+    .wsus__next_prev_btn li a p {
+        max-width: 100%;
+    }
+
+    .wsus__single_comment .text {
+        width: 100% !important;
+        margin-top: 15px;
+    }
+
+    .wsus__single_comment.reply {
+        margin-left: 0;
+    }
+
+    .wsus__comment_input_area {
+        margin-bottom: 25px;
+    }
+
+    .wsus__left_sidebar_wizard {
+        padding: 16px 20px 20px 20px;
+    }
+
+    .wsus__sidebar_blog ul li .text {
+        width: 60%;
+    }
+
+    .wsus__sidebar_blog ul li .text a {
+        font-size: 14px;
+    }
+
+    .wsus__sidebar_blog ul li .img {
+        margin-right: 10px;
+    }
+
+    .wsus__sidebar_contact .text {
+        padding: 25px;
+    }
+
+    .wsus__sidebar_contact .text h3 {
+        font-size: 18px;
+    }
+
+    /*===========================
+        BLOG DETAILS END
+    ===========================*/
+
+    /*===========================
+        HOTEL DETAILS START
+    ===========================*/
+    .hotel_details_slider_item {
+        height: auto;
+    }
+
+    .area_border h3 {
+        font-size: 24px;
+    }
+
+    .wsus__details_aminities ul li {
+        width: 100%;
+    }
+
+    .wsus__hotel_details_sidebar {
+        padding-left: 0;
+    }
+
+    .wsus__sidebar_booking {
+        padding: 15px;
+    }
+
+    .wsus__sidebar_author {
+        height: auto;
+    }
+
+    /*===========================
+        HOTEL DETAILS END
+    ===========================*/
+
+    /*===========================
+        BOAT GRID START
+    ===========================*/
+
+    .car_slider_large_img {
+        height: auto;
+    }
+
+    .wsus__item_header {
+        padding: 15px;
+    }
+
+    .wsus__item_header .nice-select {
+        width: 165px;
+    }
+
+    .wsus__boat_grid_view .wsus__pagination {
+        margin-bottom: 25px;
+    }
+
+    /*===========================
+        BOAT GRID END
+    ===========================*/
+
+    /*===========================
+        BOAT LIST START
+    ===========================*/
+    .wsus__single_list_item_img {
+        height: auto;
+        width: 100%;
+        padding: 10px 10px 10px 10px;
+    }
+
+    .wsus__single_list_item_text {
+        width: 100%;
+    }
+
+    .wsus__single_list_item_text .wsus__common_card_text {
+        padding: 20px 20px 0px 20px;
+    }
+
+    .wsus__single_list_item_text .wsus__common_card_text_footer {
+        padding: 10px 20px 20px 20px;
+    }
+
+    .wsus__boat_list_view .wsus__pagination {
+        margin-bottom: 25px;
+    }
+
+    .car_list .author_img {
+        top: 15px;
+        right: 20px;
+    }
+
+    .car_list .bookmark {
+        top: -60px;
+        left: 25px;
+    }
+
+    .car_list ul {
+        margin-bottom: 15px;
+    }
+
+    .wsus__item_header p {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .wsus__car_grid_view .wsus__pagination,
+    .wsus__car_list_view .wsus__pagination {
+        margin-bottom: 25px;
+    }
+
+    .wsus__details_header .bookmark {
+        top: -10px;
+    }
+
+    /*===========================
+        BOAT LIST END
+    ===========================*/
+
+    /*===========================
+        CONTACT START
+    ===========================*/
+    .wsus__contact_form h3 {
+        font-size: 28px;
+    }
+
+    .wsus__contact_form form {
+        padding: 25px;
+    }
+
+    .wsus__contact_img {
+        display: none;
+    }
+
+    .wsus__contact_info {
+        padding: 25px;
+    }
+
+    .contact_map {
+        height: 250px;
+    }
+
+    /*===========================
+        CONTACT END
+    ===========================*/
+
+    /*===========================
+        EVENT DETAILS START
+    ===========================*/
+    .wsus__details_snapshot ul li {
+        width: 100%;
+    }
+
+    .wsus__sidebar_countdown .simply-countdown {
+        justify-content: start;
+        gap: 10px;
+    }
+
+    .wsus__sidebar_countdown .simply-amount {
+        width: 65px;
+        height: 65px;
+        line-height: 65px;
+    }
+
+    .wsus__sidebar_countdown .simply-word {
+        font-size: 12px;
+    }
+
+    .wsus__packages_page .wsus__pagination,
+    .wsus__hotel_grid_view .wsus__pagination,
+    .wsus__hotel_list_view .wsus__pagination,
+    .wsus__event_grid_view .wsus__pagination,
+    .wsus__event_list_view .wsus__pagination {
+        margin-bottom: 25px;
+    }
+
+    /*===========================
+        EVENT DETAILS END
+    ===========================*/
+
+    .wsus__faq_page .section_heading h2 {
+        max-width: 100%;
+    }
+
+    .wsus__package_details .wsus__accordian_area {
+        margin-bottom: 25px;
+    }
+
+    .wsus__packages_page .wsus__single_package_3_img {
+        margin-top: 0;
+    }
+
+    /*===========================
+        SERVICES START
+    ===========================*/
+    .wsus_service_info_img {
+        height: auto;
+        margin-top: 25px;
+    }
+
+    .wsus__service_are_banner {
+        height: auto;
+    }
+
+    .wsus__single_services {
+        padding: 30px;
+    }
+
+    .wsus__service_video h2 {
+        font-size: 28px;
+        top: 30px;
+        transform: translate(0);
+        -webkit-transform: translate(0);
+        -moz-transform: translate(0);
+        -ms-transform: translate(0);
+        -o-transform: translate(0);
+    }
+
+    .wsus__service_video_img .circle_box_bg {
+        position: initial;
+    }
+
+    .wsus__service_contact_form {
+        padding: 30px;
+    }
+
+    .wsus__service_contact_form h2 {
+        font-size: 24px;
+    }
+
+    .wsus__service_contact_img {
+        margin-left: 0;
+    }
+
+    /*===========================
+        SERVICES END
+    ===========================*/
+
+    /*===========================
+        SIGN IN START
+    ===========================*/
+    .wsus__sign_in {
+        background-position: center left !important;
+    }
+
+    .wsus__sign_in_form form {
+        padding: 30px;
+    }
+
+    .wsus__sign_in_form form h3 {
+        font-size: 22px;
+    }
+
+    .wsus__login_header li a {
+        padding: 15px;
+    }
+
+    .wsus__sign_in_form .wsus__another_login li {
+        width: 100%;
+    }
+
+    /*===========================
+        SIGN IN END
+    ===========================*/
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

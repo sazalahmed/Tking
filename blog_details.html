@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/ranger_slider.css">
     <link rel="stylesheet" href="css/venobox.min.css">
+    <link rel="stylesheet" href="css/scroll_button.css">
 
     <link rel="stylesheet" href="css/spacing.css">
     <link rel="stylesheet" href="css/style.css">
@@ -36,7 +37,8 @@
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <i class="far fa-bars menu_icon_bar"></i>
+                <i class="far fa-times close_icon_close"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav me-auto">
@@ -186,7 +188,7 @@
         <div class="container">
             <div class="wsus__blog_details_banner">
                 <div class="row align-items-center">
-                    <div class="col-xl-6">
+                    <div class="col-xl-6 col-lg-6">
                         <div class="wsus__blog_details_banner_text">
                             <ul>
                                 <li>
@@ -202,7 +204,7 @@
                             <p>Proin venenatis tincidunt ligula, in cursus neque volutpat et. Nam ut nibh porta.</p>
                         </div>
                     </div>
-                    <div class="col-xl-6">
+                    <div class="col-xl-6 col-lg-6">
                         <div class="wsus__blog_details_banner_img">
                             <img src="images/blog_details_banner_img.jpg" alt="blog" class="img-fluid w-100">
                             <span>Adventure</span>
@@ -211,7 +213,7 @@
                 </div>
             </div>
             <div class="row mt_80">
-                <div class="col-xl-8">
+                <div class="col-lg-8">
                     <div class="wsus__blog_details_text">
                         <p>Booking flights, accommodations, and activities were stress-free, thanks to their efficient
                             and responsive customer service. Any questions or concerns were addressed promptly, and they
@@ -232,13 +234,13 @@
                             Purus ut faucibus pulvinar elementum.</p>
                         <div class="wsus__details_small_img_area mt_35">
                             <div class="row">
-                                <div class="col-xl-6">
+                                <div class="col-xl-6 col-md-6">
                                     <div class="img">
                                         <img src="images/blog_details_small_img_1.jpg" alt="blog"
                                             class="img-fluid w-100">
                                     </div>
                                 </div>
-                                <div class="col-xl-6">
+                                <div class="col-xl-6 col-md-6">
                                     <div class="img">
                                         <img src="images/blog_details_small_img_2.jpg" alt="blog"
                                             class="img-fluid w-100">
@@ -344,13 +346,13 @@
                         <p>Your email address will not be published. Required fields are marked *</p>
                         <form action="#">
                             <div class="row">
-                                <div class="col-xl-6">
+                                <div class="col-xl-6 col-md-6">
                                     <div class="single_comment_input">
                                         <label>Your Name *</label>
                                         <input type="text" placeholder="Your Name">
                                     </div>
                                 </div>
-                                <div class="col-xl-6">
+                                <div class="col-xl-6 col-md-6">
                                     <div class="single_comment_input">
                                         <label>Your Email *</label>
                                         <input type="email" placeholder="Your Email">
@@ -378,7 +380,7 @@
                         </form>
                     </div>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-lg-4 col-md-8">
                     <div class="sticky_sidebar">
                         <div class="wsus__blog_sidebar">
                             <div class="wsus__left_sidebar_wizard search_wized mb_30">
@@ -479,7 +481,7 @@
     =============================-->
     <section class="wsus__newslwtter pt_120 xs_pt_100">
         <div class="container">
-            <div class="col-xl-9 ms-auto">
+            <div class="col-lg-9 ms-auto">
                 <div class="wsus__newslwtter_bg">
                     <div class="text">
                         <h2>Subscribe Us</h2>
@@ -504,12 +506,12 @@
     <footer class="pt_100">
         <div class="container">
             <div class="row justify-content-between">
-                <div class="col-xl-4">
+                <div class="col-lg-4">
                     <div class="wsus__footer_banner">
                         <img src="images/footer_banner.jpg" alt="banner" class="img-fluid w-100">
                     </div>
                 </div>
-                <div class="col-xl-2">
+                <div class="col-lg-2 col-sm-6 col-md-4">
                     <div class="wsus__footer_link">
                         <h3>Quick Links</h3>
                         <ul>
@@ -521,7 +523,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-xl-2">
+                <div class="col-lg-2 col-sm-6 col-md-4">
                     <div class="wsus__footer_link">
                         <h3>Platform</h3>
                         <ul>
@@ -533,7 +535,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-xl-3">
+                <div class="col-lg-3 col-md-4">
                     <div class="wsus__footer_logo_area">
                         <a class="footer_logo" href="index.html">
                             <img src="images/logo_2.png" alt="Tking" class="img-fluid w-100">
@@ -569,6 +571,19 @@
     =============================-->
 
 
+    <!--================================
+        SCROLL BUTTON START
+    =================================-->
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!--================================
+        SCROLL BUTTON END
+    =================================-->
+
+
     <!--jquery library js-->
     <script src="js/jquery-3.7.1.min.js"></script>
     <!--bootstrap js-->
@@ -601,6 +616,8 @@
     <script src="js/datepicker.js"></script>
     <!--Simply Countdown js-->
     <script src="js/simplyCountdown.js"></script>
+    <!--scroll button js-->
+    <script src="js/scroll_button.js"></script>
 
     <!--main/custom js-->
     <script src="js/main.js"></script>
