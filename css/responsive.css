@@ -648,6 +648,10 @@
     /*===========================
         SERVICES END
     ===========================*/
+
+    .sidebar_package_item .text {
+        max-width: 100%;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199.99px) {
@@ -1387,6 +1391,11 @@
     /*===========================
         SERVICES END
     ===========================*/
+
+    .sidebar_package_item .text {
+        max-width: 51%;
+    }
+
 }
 
 @media (min-width: 768px) and (max-width: 991.99px) {
@@ -2236,6 +2245,31 @@
     /*===========================
         SERVICES END
     ===========================*/
+
+
+    /*================================
+        PAYMENT START
+    ================================*/
+    .sidebar_package_item .text {
+        max-width: 57%;
+    }
+
+
+
+
+
+
+
+    /*================================
+        PAYMENT END
+    ================================*/
+
+
+
+
+
+
+
 }
 
 @media (min-width: 576px) and (max-width: 767.99px) {
@@ -3160,6 +3194,24 @@
     /*===========================
         SIGN IN END
     ===========================*/
+
+
+    /*================================
+        PAYMENT START
+    ================================*/
+    .sidebar_package_item .text {
+        max-width: 57%;
+    }
+
+    .payment_done_img h2,
+    .payment_done_img h2 span {
+        font-size: 32px;
+    }
+
+    /*================================
+        PAYMENT END
+    ================================*/
+
 }
 
 @media (max-width: 575.99px) {
@@ -4241,4 +4293,42 @@
     /*===========================
         SIGN IN END
     ===========================*/
+
+
+    /*================================
+        PAYMENT START
+    ================================*/
+    .sidebar_package_item {
+        display: block;
+    }
+
+    .sidebar_package_item .text {
+        max-width: 100%;
+        margin-top: 10px;
+    }
+
+    .sidebar_package_item .text a {
+        font-size: 16px;
+    }
+
+    .sidebar_package_item h4 {
+        margin-top: 15px;
+    }
+
+    .payment .modal .modal-dialog {
+        width: auto;
+    }
+
+    .payment .modal .modal-content {
+        padding: 25px;
+    }
+
+    .payment_done_img h2,
+    .payment_done_img h2 span {
+        font-size: 26px;
+    }
+
+    /*================================
+        PAYMENT END
+    ================================*/
 }
