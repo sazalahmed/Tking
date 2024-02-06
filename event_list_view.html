@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="css/ranger_slider.css">
     <link rel="stylesheet" href="css/venobox.min.css">
     <link rel="stylesheet" href="css/scroll_button.css">
+    <link rel="stylesheet" href="css/animate.css">
 
     <link rel="stylesheet" href="css/spacing.css">
     <link rel="stylesheet" href="css/style.css">
@@ -43,10 +44,9 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home <i
-                                class="far fa-angle-down"></i></a>
+                        <a class="nav-link" aria-current="page" href="#">Home <i class="far fa-angle-down"></i></a>
                         <ul class="submenu">
-                            <li><a class="active" href="index.html">home style 01</a></li>
+                            <li><a href="index.html">home style 01</a></li>
                             <li><a href="index_2.html">home style 02</a></li>
                             <li><a href="index_3.html">home style 03</a></li>
                         </ul>
@@ -55,7 +55,7 @@
                         <a class="nav-link" href="about_us.html">about us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Categories <i class="far fa-angle-down"></i></a>
+                        <a class="nav-link active" href="#">Categories <i class="far fa-angle-down"></i></a>
                         <ul class="submenu">
                             <li>
                                 <a href="#">Hotels</a>
@@ -82,10 +82,10 @@
                                 </ul>
                             </li>
                             <li>
-                                <a href="#">Events</a>
+                                <a class="active" href="#">Events</a>
                                 <ul class="child_menu">
                                     <li><a href="event_grid_view.html">Event Grid View</a></li>
-                                    <li><a href="event_list_view.html">Event List View</a></li>
+                                    <li><a class="active" href="event_list_view.html">Event List View</a></li>
                                     <li><a href="event_details.html">Event Details</a></li>
                                 </ul>
                             </li>
@@ -104,11 +104,13 @@
                             <li><a href="agent_profile.html">agent profile</a></li>
                             <li><a href="services.html">Services</a></li>
                             <li><a href="faq.html">FAQ's</a></li>
-                            <li><a href="error.html">error</a></li>
+                            <li><a href="error.html">404/error</a></li>
                             <li><a href="forgot_password.html">forgot password</a></li>
                             <li><a href="hotel_room_details.html">hotel room details</a></li>
                             <li><a href="privacy_policy.html">privacy Policy</a></li>
                             <li><a href="terms_condition.html">terms and conditions</a></li>
+                            <li><a href="payment.html">payment</a></li>
+                            <li><a href="payment_done.html">payment done</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -162,13 +164,13 @@
     <section class="wsus__breadcrumb" style="background: url(images/breadcrumb_bg.jpg);">
         <div class="wsus__breadcrumb_overlay">
             <div class="container">
-                <div class="row">
+                <div class="row wow fadeInUp">
                     <div class="col-12">
                         <div class="wsus__breadcrumb_text">
                             <h1>Event List View</h1>
                             <ul>
                                 <li><a href="#">Home</a></li>
-                                <li><a class="active">Event List View</a></li>
+                                <li>Event List View</li>
                             </ul>
                         </div>
                     </div>
@@ -365,7 +367,7 @@
                 </div>
                 <div class="col-lg-8 order-lg-2">
                     <div class="row">
-                        <div class="col-12">
+                        <div class="col-12 wow fadeInUp">
                             <div class="wsus__item_header">
                                 <p>Showing 1–9 of 65 results</p>
                                 <ul class="filter d-flex flex-wrap">
@@ -392,7 +394,7 @@
                     </div>
 
                     <div class="row">
-                        <div class="col-xl-12">
+                        <div class="col-xl-12 wow fadeInUp">
                             <div class="wsus__single_list_item car_list">
                                 <a class="wsus__single_list_item_img" href="#">
                                     <img src="images/event_list_img_1.jpg" alt="Hotel" class="img-fluid w-100">
@@ -412,19 +414,19 @@
                                             <i class="fas fa-star"></i>
                                             <span>5 (214 reviews)</span>
                                         </p>
-                                        <a href="#" class="title">Lylan’s Famous Minibus Tour –
+                                        <a href="event_details.html" class="title">Lylan’s Famous Minibus Tour –
                                             Small Group Tour</a>
                                         <p class="location"> Start Time: 17:00</p>
                                         <p class="duration">Duration: 4H</p>
                                     </div>
                                     <div class="wsus__common_card_text_footer d-flex flex-wrap justify-content-between">
                                         <h5>$150.00/<span>Day</span></h5>
-                                        <a href="#" class="read_btn">More Details</a>
+                                        <a href="event_details.html" class="read_btn">More Details</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-12">
+                        <div class="col-xl-12 wow fadeInUp">
                             <div class="wsus__single_list_item car_list">
                                 <a class="wsus__single_list_item_img" href="#">
                                     <img src="images/event_list_img_2.jpg" alt="Hotel" class="img-fluid w-100">
@@ -444,19 +446,19 @@
                                             <i class="fas fa-star"></i>
                                             <span>5 (214 reviews)</span>
                                         </p>
-                                        <a href="#" class="title">What to Know Before Moving
+                                        <a href="event_details.html" class="title">What to Know Before Moving
                                             to Paris for 7 Day</a>
                                         <p class="location"> Start Time: 17:00</p>
                                         <p class="duration">Duration: 3H</p>
                                     </div>
                                     <div class="wsus__common_card_text_footer d-flex flex-wrap justify-content-between">
                                         <h5>$150.00/<span>Day</span></h5>
-                                        <a href="#" class="read_btn">More Details</a>
+                                        <a href="event_details.html" class="read_btn">More Details</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-12">
+                        <div class="col-xl-12 wow fadeInUp">
                             <div class="wsus__single_list_item car_list">
                                 <a class="wsus__single_list_item_img" href="#">
                                     <img src="images/event_list_img_3.jpg" alt="Hotel" class="img-fluid w-100">
@@ -476,19 +478,19 @@
                                             <i class="fas fa-star"></i>
                                             <span>5 (214 reviews)</span>
                                         </p>
-                                        <a href="#" class="title">There are many Accommodation
+                                        <a href="event_details.html" class="title">There are many Accommodation
                                             Options in Paris</a>
                                         <p class="location"> Start Time: 17:00</p>
                                         <p class="duration">Duration: 7H</p>
                                     </div>
                                     <div class="wsus__common_card_text_footer d-flex flex-wrap justify-content-between">
                                         <h5>$150.00/<span>Day</span></h5>
-                                        <a href="#" class="read_btn">More Details</a>
+                                        <a href="event_details.html" class="read_btn">More Details</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-12">
+                        <div class="col-xl-12 wow fadeInUp">
                             <div class="wsus__single_list_item car_list">
                                 <a class="wsus__single_list_item_img" href="#">
                                     <img src="images/event_list_img_4.jpg" alt="Hotel" class="img-fluid w-100">
@@ -508,20 +510,21 @@
                                             <i class="fas fa-star"></i>
                                             <span>5 (214 reviews)</span>
                                         </p>
-                                        <a href="#" class="title">Paris has an extensive public Transportation Network
+                                        <a href="event_details.html" class="title">Paris has an extensive public
+                                            Transportation Network
                                             including</a>
                                         <p class="location"> Start Time: 17:00</p>
                                         <p class="duration">Duration: 9H</p>
                                     </div>
                                     <div class="wsus__common_card_text_footer d-flex flex-wrap justify-content-between">
                                         <h5>$150.00/<span>Day</span></h5>
-                                        <a href="#" class="read_btn">More Details</a>
+                                        <a href="event_details.html" class="read_btn">More Details</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="wsus__pagination mt_60">
+                    <div class="wsus__pagination mt_60 wow fadeInUp">
                         <nav aria-label="Page navigation example">
                             <ul class="pagination justify-content-center">
                                 <li class="page-item">
@@ -554,7 +557,7 @@
     =============================-->
     <section class="wsus__newslwtter pt_120 xs_pt_100">
         <div class="container">
-            <div class="col-lg-9 ms-auto">
+            <div class="col-lg-9 ms-auto wow fadeInRight">
                 <div class="wsus__newslwtter_bg">
                     <div class="text">
                         <h2>Subscribe Us</h2>
@@ -579,12 +582,12 @@
     <footer class="pt_100">
         <div class="container">
             <div class="row justify-content-between">
-                <div class="col-lg-4">
+                <div class="col-lg-4 wow fadeInLeft">
                     <div class="wsus__footer_banner">
                         <img src="images/footer_banner.jpg" alt="banner" class="img-fluid w-100">
                     </div>
                 </div>
-                <div class="col-lg-2 col-sm-6 col-md-4">
+                <div class="col-lg-2 col-sm-6 col-md-4 wow fadeInRight" data-wow-delay="0s">
                     <div class="wsus__footer_link">
                         <h3>Quick Links</h3>
                         <ul>
@@ -596,7 +599,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-2 col-sm-6 col-md-4">
+                <div class="col-lg-2 col-sm-6 col-md-4 wow fadeInRight" data-wow-delay=".3s">
                     <div class="wsus__footer_link">
                         <h3>Platform</h3>
                         <ul>
@@ -608,7 +611,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4">
+                <div class="col-lg-3 col-md-4 wow fadeInRight" data-wow-delay=".6s">
                     <div class="wsus__footer_logo_area">
                         <a class="footer_logo" href="index.html">
                             <img src="images/logo_2.png" alt="Tking" class="img-fluid w-100">
@@ -629,7 +632,7 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="wsus__footer_copyright_text">
-                            <p>© 2023 All Rights Reserved by <span>Websolutionus</span></p>
+                            <p>© 2024 All Rights Reserved by <span>Websolutionus</span></p>
                             <div class="img">
                                 <img src="images/footer_payment_icon.png" alt="payment" class="img-fluid w-100">
                             </div>
@@ -691,6 +694,8 @@
     <script src="js/simplyCountdown.js"></script>
     <!--scroll button js-->
     <script src="js/scroll_button.js"></script>
+    <!--wow js-->
+    <script src="js/wow.min.js"></script>
 
     <!--main/custom js-->
     <script src="js/main.js"></script>

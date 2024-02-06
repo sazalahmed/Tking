@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="css/ranger_slider.css">
     <link rel="stylesheet" href="css/venobox.min.css">
     <link rel="stylesheet" href="css/scroll_button.css">
+    <link rel="stylesheet" href="css/animate.css">
 
     <link rel="stylesheet" href="css/spacing.css">
     <link rel="stylesheet" href="css/style.css">
@@ -43,10 +44,9 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home <i
-                                class="far fa-angle-down"></i></a>
+                        <a class="nav-link" aria-current="page" href="#">Home <i class="far fa-angle-down"></i></a>
                         <ul class="submenu">
-                            <li><a class="active" href="index.html">home style 01</a></li>
+                            <li><a href="index.html">home style 01</a></li>
                             <li><a href="index_2.html">home style 02</a></li>
                             <li><a href="index_3.html">home style 03</a></li>
                         </ul>
@@ -99,16 +99,18 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Pages <i class="far fa-angle-down"></i></a>
+                        <a class="nav-link active" href="#">Pages <i class="far fa-angle-down"></i></a>
                         <ul class="submenu">
-                            <li><a href="agent_profile.html">agent profile</a></li>
+                            <li><a class="active" href="agent_profile.html">agent profile</a></li>
                             <li><a href="services.html">Services</a></li>
                             <li><a href="faq.html">FAQ's</a></li>
-                            <li><a href="error.html">error</a></li>
+                            <li><a href="error.html">404/error</a></li>
                             <li><a href="forgot_password.html">forgot password</a></li>
                             <li><a href="hotel_room_details.html">hotel room details</a></li>
                             <li><a href="privacy_policy.html">privacy Policy</a></li>
                             <li><a href="terms_condition.html">terms and conditions</a></li>
+                            <li><a href="payment.html">payment</a></li>
+                            <li><a href="payment_done.html">payment done</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -162,13 +164,13 @@
     <section class="wsus__breadcrumb" style="background: url(images/breadcrumb_bg.jpg);">
         <div class="wsus__breadcrumb_overlay">
             <div class="container">
-                <div class="row">
+                <div class="row wow fadeInUp">
                     <div class="col-12">
                         <div class="wsus__breadcrumb_text">
                             <h1>Agent Profile</h1>
                             <ul>
                                 <li><a href="#">Home</a></li>
-                                <li><a class="active">Agent Profile</a></li>
+                                <li>Agent Profile</li>
                             </ul>
                         </div>
                     </div>
@@ -189,7 +191,7 @@
             <div class="row justify-content-between">
                 <div class="col-xxl-8 col-xl-8">
                     <div class="row">
-                        <div class="col-xxl-4 col-md-7 col-lg-6">
+                        <div class="col-xxl-4 col-md-7 col-lg-6 wow fadeInLeft">
                             <div class="wsus__agent_profile_img wsus__sidebar_author">
                                 <img src="images/sidebar_author_img.jpg" alt="author" class="img-fluis w-100">
                                 <div class="text">
@@ -198,7 +200,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xxl-8 col-md-12 col-lg-6">
+                        <div class="col-xxl-8 col-md-12 col-lg-6 wow fadeInRight">
                             <div class="wsus__agent_profile_text">
                                 <h2>Hi, I'm Dianne Ameter</h2>
                                 <p>It seems like you're interested in travel! If you have any specific questions or if
@@ -252,7 +254,7 @@
                         </div>
                     </div>
                     <div class="wsus__agent_tab_area mt_70">
-                        <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                        <ul class="nav nav-pills wow fadeInUp" id="pills-tab" role="tablist">
                             <li class="nav-item" role="presentation">
                                 <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
                                     data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
@@ -308,7 +310,7 @@
                             <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
                                 aria-labelledby="pills-home-tab" tabindex="0">
                                 <div class="row">
-                                    <div class="col-xl-6 col-md-6">
+                                    <div class="col-xl-6 col-md-6 wow fadeInUp">
                                         <div class="wsus__common_card">
                                             <div class="wsus__common_card_img">
                                                 <img src="images/hotel_img_1.jpg" alt="Hotel" class="img-fluid w-100">
@@ -328,7 +330,8 @@
                                                     <i class="fas fa-star"></i>
                                                     <span>5 (168 reviews)</span>
                                                 </p>
-                                                <a href="#" class="title">Sayeman Beach Hotel & Resort</a>
+                                                <a href="hotel_details.html" class="title">Sayeman Beach Hotel &
+                                                    Resort</a>
                                                 <p class="location"> Marine Drive,
                                                     Road, Cox's Bazar 4700</p>
                                                 <p class="description">Enjoy the breathtaking view of the nature, Relax
@@ -337,11 +340,11 @@
                                             <div
                                                 class="wsus__common_card_text_footer d-flex flex-wrap justify-content-between">
                                                 <h5><del>$140</del> $96.00</h5>
-                                                <a href="#" class="read_btn">More Details</a>
+                                                <a href="hotel_details.html" class="read_btn">More Details</a>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-xl-6 col-md-6">
+                                    <div class="col-xl-6 col-md-6 wow fadeInUp">
                                         <div class="wsus__common_card">
                                             <div class="wsus__common_card_img">
                                                 <img src="images/hotel_img_2.jpg" alt="Hotel" class="img-fluid w-100">
@@ -361,7 +364,8 @@
                                                     <i class="fas fa-star"></i>
                                                     <span>5 (168 reviews)</span>
                                                 </p>
-                                                <a href="#" class="title">Grand Sylhet Hotel & Resort</a>
+                                                <a href="hotel_details.html" class="title">Grand Sylhet Hotel &
+                                                    Resort</a>
                                                 <p class="location">Airport Road, Shodor Sylhet</p>
                                                 <p class="description">Enjoy the breathtaking view of the nature, Relax
                                                     and cherish your dream.</p>
@@ -369,11 +373,11 @@
                                             <div
                                                 class="wsus__common_card_text_footer d-flex flex-wrap justify-content-between">
                                                 <h5><del>$119</del> $99.00</h5>
-                                                <a href="#" class="read_btn">More Details</a>
+                                                <a href="hotel_details.html" class="read_btn">More Details</a>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-xl-6 col-md-6">
+                                    <div class="col-xl-6 col-md-6 wow fadeInUp">
                                         <div class="wsus__common_card">
                                             <div class="wsus__common_card_img">
                                                 <img src="images/hotel_img_3.jpg" alt="Hotel" class="img-fluid w-100">
@@ -393,7 +397,7 @@
                                                     <i class="fas fa-star"></i>
                                                     <span>5 (168 reviews)</span>
                                                 </p>
-                                                <a href="#" class="title">The Lodge at Blue Sky</a>
+                                                <a href="hotel_details.html" class="title">The Lodge at Blue Sky</a>
                                                 <p class="location">Airport Road, Shodor Sylhet</p>
                                                 <p class="description">Enjoy the breathtaking view of the nature, Relax
                                                     and cherish your dream.</p>
@@ -401,11 +405,11 @@
                                             <div
                                                 class="wsus__common_card_text_footer d-flex flex-wrap justify-content-between">
                                                 <h5><del>$999</del> $150.00</h5>
-                                                <a href="#" class="read_btn">More Details</a>
+                                                <a href="hotel_details.html" class="read_btn">More Details</a>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-xl-6 col-md-6">
+                                    <div class="col-xl-6 col-md-6 wow fadeInUp">
                                         <div class="wsus__common_card">
                                             <div class="wsus__common_card_img">
                                                 <img src="images/hotel_img_4.jpg" alt="Hotel" class="img-fluid w-100">
@@ -425,7 +429,8 @@
                                                     <i class="fas fa-star"></i>
                                                     <span>5 (168 reviews)</span>
                                                 </p>
-                                                <a href="#" class="title">Grand Sylhet Hotel & Resort</a>
+                                                <a href="hotel_details.html" class="title">Grand Sylhet Hotel &
+                                                    Resort</a>
                                                 <p class="location">Airport Road, Shodor Sylhet</p>
                                                 <p class="description">Enjoy the breathtaking view of the nature, Relax
                                                     and cherish your dream.</p>
@@ -433,12 +438,12 @@
                                             <div
                                                 class="wsus__common_card_text_footer d-flex flex-wrap justify-content-between">
                                                 <h5><del>$119</del> $99.00</h5>
-                                                <a href="#" class="read_btn">More Details</a>
+                                                <a href="hotel_details.html" class="read_btn">More Details</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row mt_60">
+                                <div class="row mt_60 wow fadeInUp">
                                     <div class="col-12 text-center">
                                         <a href="#" class="common_btn mb-0">See More Hotel <i
                                                 class="far fa-angle-down"></i></a>
@@ -448,7 +453,7 @@
                             <div class="tab-pane fade" id="pills-profile" role="tabpanel"
                                 aria-labelledby="pills-profile-tab" tabindex="0">
                                 <div class="row">
-                                    <div class="col-xl-6 col-md-6">
+                                    <div class="col-xl-6 col-md-6 wow fadeInUp">
                                         <div class="wsus__common_card package">
                                             <div class="wsus__common_card_img">
                                                 <img src="images/package_img_1.jpg" alt="Hotel" class="img-fluid w-100">
@@ -468,18 +473,19 @@
                                                     <i class="fas fa-star"></i>
                                                     <span>5 (168 reviews)</span>
                                                 </p>
-                                                <a href="#" class="title">Lylan’s Famous Minibus Tour – Small Group
+                                                <a href="package_details.html" class="title">Lylan’s Famous Minibus Tour
+                                                    – Small Group
                                                     Tour</a>
                                                 <p class="location">7 Days</p>
                                             </div>
                                             <div
                                                 class="wsus__common_card_text_footer d-flex flex-wrap justify-content-between">
                                                 <h5>$96.00</h5>
-                                                <a href="#" class="read_btn">More Details</a>
+                                                <a href="package_details.html" class="read_btn">More Details</a>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-xl-6 col-md-6">
+                                    <div class="col-xl-6 col-md-6 wow fadeInUp">
                                         <div class="wsus__common_card package">
                                             <div class="wsus__common_card_img">
                                                 <img src="images/package_img_2.jpg" alt="Hotel" class="img-fluid w-100">
@@ -499,18 +505,19 @@
                                                     <i class="fas fa-star"></i>
                                                     <span>5 (168 reviews)</span>
                                                 </p>
-                                                <a href="#" class="title">Lylan’s Famous Minibus Tour – Small Group
+                                                <a href="package_details.html" class="title">Lylan’s Famous Minibus Tour
+                                                    – Small Group
                                                     Tour</a>
                                                 <p class="location">7 Days</p>
                                             </div>
                                             <div
                                                 class="wsus__common_card_text_footer d-flex flex-wrap justify-content-between">
                                                 <h5>$120.00</h5>
-                                                <a href="#" class="read_btn">More Details</a>
+                                                <a href="package_details.html" class="read_btn">More Details</a>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-xl-6 col-md-6">
+                                    <div class="col-xl-6 col-md-6 wow fadeInUp">
                                         <div class="wsus__common_card package">
                                             <div class="wsus__common_card_img">
                                                 <img src="images/package_img_3.jpg" alt="Hotel" class="img-fluid w-100">
@@ -530,18 +537,19 @@
                                                     <i class="fas fa-star"></i>
                                                     <span>5 (168 reviews)</span>
                                                 </p>
-                                                <a href="#" class="title">Lylan’s Famous Minibus Tour – Small Group
+                                                <a href="package_details.html" class="title">Lylan’s Famous Minibus Tour
+                                                    – Small Group
                                                     Tour</a>
                                                 <p class="location">7 Days</p>
                                             </div>
                                             <div
                                                 class="wsus__common_card_text_footer d-flex flex-wrap justify-content-between">
                                                 <h5><del>$999</del> $150.00</h5>
-                                                <a href="#" class="read_btn">More Details</a>
+                                                <a href="package_details.html" class="read_btn">More Details</a>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-xl-6 col-md-6">
+                                    <div class="col-xl-6 col-md-6 wow fadeInUp">
                                         <div class="wsus__common_card package">
                                             <div class="wsus__common_card_img">
                                                 <img src="images/package_img_2.jpg" alt="Hotel" class="img-fluid w-100">
@@ -561,19 +569,20 @@
                                                     <i class="fas fa-star"></i>
                                                     <span>5 (168 reviews)</span>
                                                 </p>
-                                                <a href="#" class="title">Lylan’s Famous Minibus Tour – Small Group
+                                                <a href="package_details.html" class="title">Lylan’s Famous Minibus Tour
+                                                    – Small Group
                                                     Tour</a>
                                                 <p class="location">7 Days</p>
                                             </div>
                                             <div
                                                 class="wsus__common_card_text_footer d-flex flex-wrap justify-content-between">
                                                 <h5>$120.00</h5>
-                                                <a href="#" class="read_btn">More Details</a>
+                                                <a href="package_details.html" class="read_btn">More Details</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row mt_60">
+                                <div class="row mt_60 wow fadeInUp">
                                     <div class="col-12 text-center">
                                         <a href="#" class="common_btn">See More Hotel <i
                                                 class="far fa-angle-down"></i></a>
@@ -583,7 +592,7 @@
                             <div class="tab-pane fade" id="pills-contact" role="tabpanel"
                                 aria-labelledby="pills-contact-tab" tabindex="0">
                                 <div class="row">
-                                    <div class="col-xl-6 col-md-6">
+                                    <div class="col-xl-6 col-md-6 wow fadeInUp">
                                         <div class="wsus__common_card car">
                                             <div class="wsus__common_card_img">
                                                 <img src="images/car_img_1.jpg" alt="Hotel" class="img-fluid w-100">
@@ -603,7 +612,7 @@
                                                     <i class="fas fa-star"></i>
                                                     <span>5 (168 reviews)</span>
                                                 </p>
-                                                <a href="#" class="title">Honda Civic Type R</a>
+                                                <a href="car_details.html" class="title">Honda Civic Type R</a>
                                                 <p class="location"> Convertibles</p>
                                                 <ul>
                                                     <li data-bs-toggle="tooltip" data-bs-placement="top"
@@ -631,11 +640,11 @@
                                             <div
                                                 class="wsus__common_card_text_footer d-flex flex-wrap justify-content-between">
                                                 <h5>$96.00</h5>
-                                                <a href="#" class="read_btn">More Details</a>
+                                                <a href="car_details.html" class="read_btn">More Details</a>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-xl-6 col-md-6">
+                                    <div class="col-xl-6 col-md-6 wow fadeInUp">
                                         <div class="wsus__common_card car">
                                             <div class="wsus__common_card_img">
                                                 <img src="images/car_img_2.jpg" alt="Hotel" class="img-fluid w-100">
@@ -655,7 +664,7 @@
                                                     <i class="fas fa-star"></i>
                                                     <span>5 (168 reviews)</span>
                                                 </p>
-                                                <a href="#" class="title">Zephyr Windchaser XE</a>
+                                                <a href="car_details.html" class="title">Zephyr Windchaser XE</a>
                                                 <p class="location">Convertibles</p>
                                                 <ul>
                                                     <li data-bs-toggle="tooltip" data-bs-placement="top"
@@ -683,11 +692,11 @@
                                             <div
                                                 class="wsus__common_card_text_footer d-flex flex-wrap justify-content-between">
                                                 <h5>$99.00</h5>
-                                                <a href="#" class="read_btn">More Details</a>
+                                                <a href="car_details.html" class="read_btn">More Details</a>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-xl-6 col-md-6">
+                                    <div class="col-xl-6 col-md-6 wow fadeInUp">
                                         <div class="wsus__common_card car">
                                             <div class="wsus__common_card_img">
                                                 <img src="images/car_img_3.jpg" alt="Hotel" class="img-fluid w-100">
@@ -707,7 +716,7 @@
                                                     <i class="fas fa-star"></i>
                                                     <span>5 (168 reviews)</span>
                                                 </p>
-                                                <a href="#" class="title">Velocity Racer Plus</a>
+                                                <a href="car_details.html" class="title">Velocity Racer Plus</a>
                                                 <p class="location">Convertibles</p>
                                                 <ul>
                                                     <li data-bs-toggle="tooltip" data-bs-placement="top"
@@ -735,11 +744,11 @@
                                             <div
                                                 class="wsus__common_card_text_footer d-flex flex-wrap justify-content-between">
                                                 <h5>$150.00</h5>
-                                                <a href="#" class="read_btn">More Details</a>
+                                                <a href="car_details.html" class="read_btn">More Details</a>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-xl-6 col-md-6">
+                                    <div class="col-xl-6 col-md-6 wow fadeInUp">
                                         <div class="wsus__common_card car">
                                             <div class="wsus__common_card_img">
                                                 <img src="images/car_img_2.jpg" alt="Hotel" class="img-fluid w-100">
@@ -759,7 +768,7 @@
                                                     <i class="fas fa-star"></i>
                                                     <span>5 (168 reviews)</span>
                                                 </p>
-                                                <a href="#" class="title">Zephyr Windchaser XE</a>
+                                                <a href="car_details.html" class="title">Zephyr Windchaser XE</a>
                                                 <p class="location">Convertibles</p>
                                                 <ul>
                                                     <li data-bs-toggle="tooltip" data-bs-placement="top"
@@ -787,12 +796,12 @@
                                             <div
                                                 class="wsus__common_card_text_footer d-flex flex-wrap justify-content-between">
                                                 <h5>$99.00</h5>
-                                                <a href="#" class="read_btn">More Details</a>
+                                                <a href="car_details.html" class="read_btn">More Details</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row mt_60">
+                                <div class="row mt_60 wow fadeInUp">
                                     <div class="col-12 text-center">
                                         <a href="#" class="common_btn">See More Hotel <i
                                                 class="far fa-angle-down"></i></a>
@@ -802,7 +811,7 @@
                             <div class="tab-pane fade" id="pills-contact1" role="tabpanel"
                                 aria-labelledby="pills-contact-tab1" tabindex="0">
                                 <div class="row">
-                                    <div class="col-xl-6 col-md-6">
+                                    <div class="col-xl-6 col-md-6 wow fadeInUp">
                                         <div class="wsus__common_card car">
                                             <div class="wsus__common_card_img">
                                                 <img src="images/boat_img_1.jpg" alt="Hotel" class="img-fluid w-100">
@@ -822,7 +831,7 @@
                                                     <i class="fas fa-star"></i>
                                                     <span>5 (168 reviews)</span>
                                                 </p>
-                                                <a href="#" class="title">Bowrider Boats</a>
+                                                <a href="boat_details.html" class="title">Bowrider Boats</a>
                                                 <p class="location"> Convertibles</p>
                                                 <ul>
                                                     <li data-bs-toggle="tooltip" data-bs-placement="top"
@@ -850,11 +859,11 @@
                                             <div
                                                 class="wsus__common_card_text_footer d-flex flex-wrap justify-content-between">
                                                 <h5>$96.00<span>/day</span></h5>
-                                                <a href="#" class="read_btn">More Details</a>
+                                                <a href="boat_details.html" class="read_btn">More Details</a>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-xl-6 col-md-6">
+                                    <div class="col-xl-6 col-md-6 wow fadeInUp">
                                         <div class="wsus__common_card car">
                                             <div class="wsus__common_card_img">
                                                 <img src="images/boat_img_2.jpg" alt="Hotel" class="img-fluid w-100">
@@ -874,7 +883,7 @@
                                                     <i class="fas fa-star"></i>
                                                     <span>5 (168 reviews)</span>
                                                 </p>
-                                                <a href="#" class="title">Zeginao FX</a>
+                                                <a href="boat_details.html" class="title">Zeginao FX</a>
                                                 <p class="location">Convertibles</p>
                                                 <ul>
                                                     <li data-bs-toggle="tooltip" data-bs-placement="top"
@@ -902,11 +911,11 @@
                                             <div
                                                 class="wsus__common_card_text_footer d-flex flex-wrap justify-content-between">
                                                 <h5>$99.00<span>/day</span></h5>
-                                                <a href="#" class="read_btn">More Details</a>
+                                                <a href="boat_details.html" class="read_btn">More Details</a>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-xl-6 col-md-6">
+                                    <div class="col-xl-6 col-md-6 wow fadeInUp">
                                         <div class="wsus__common_card car">
                                             <div class="wsus__common_card_img">
                                                 <img src="images/boat_img_3.jpg" alt="Hotel" class="img-fluid w-100">
@@ -926,7 +935,7 @@
                                                     <i class="fas fa-star"></i>
                                                     <span>5 (168 reviews)</span>
                                                 </p>
-                                                <a href="#" class="title">Fishing Boats</a>
+                                                <a href="boat_details.html" class="title">Fishing Boats</a>
                                                 <p class="location">Convertibles</p>
                                                 <ul>
                                                     <li data-bs-toggle="tooltip" data-bs-placement="top"
@@ -954,11 +963,11 @@
                                             <div
                                                 class="wsus__common_card_text_footer d-flex flex-wrap justify-content-between">
                                                 <h5>$150.00<span>/day</span></h5>
-                                                <a href="#" class="read_btn">More Details</a>
+                                                <a href="boat_details.html" class="read_btn">More Details</a>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-xl-6 col-md-6">
+                                    <div class="col-xl-6 col-md-6 wow fadeInUp">
                                         <div class="wsus__common_card car">
                                             <div class="wsus__common_card_img">
                                                 <img src="images/boat_img_2.jpg" alt="Hotel" class="img-fluid w-100">
@@ -978,7 +987,7 @@
                                                     <i class="fas fa-star"></i>
                                                     <span>5 (168 reviews)</span>
                                                 </p>
-                                                <a href="#" class="title">Zeginao FX</a>
+                                                <a href="boat_details.html" class="title">Zeginao FX</a>
                                                 <p class="location">Convertibles</p>
                                                 <ul>
                                                     <li data-bs-toggle="tooltip" data-bs-placement="top"
@@ -1006,12 +1015,12 @@
                                             <div
                                                 class="wsus__common_card_text_footer d-flex flex-wrap justify-content-between">
                                                 <h5>$99.00<span>/day</span></h5>
-                                                <a href="#" class="read_btn">More Details</a>
+                                                <a href="boat_details.html" class="read_btn">More Details</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row mt_60">
+                                <div class="row mt_60 wow fadeInUp">
                                     <div class="col-12 text-center">
                                         <a href="#" class="common_btn">See More Hotel <i
                                                 class="far fa-angle-down"></i></a>
@@ -1021,7 +1030,7 @@
                             <div class="tab-pane fade" id="pills-contact2" role="tabpanel"
                                 aria-labelledby="pills-contact-tab2" tabindex="0">
                                 <div class="row">
-                                    <div class="col-xl-6 col-md-6">
+                                    <div class="col-xl-6 col-md-6 wow fadeInUp">
                                         <div class="wsus__common_card event">
                                             <div class="wsus__common_card_img">
                                                 <img src="images/event_img_1.jpg" alt="Hotel" class="img-fluid w-100">
@@ -1041,7 +1050,8 @@
                                                     <i class="fas fa-star"></i>
                                                     <span>5 (168 reviews)</span>
                                                 </p>
-                                                <a href="#" class="title">There are many Accommodation Options in
+                                                <a href="event_details.html" class="title">There are many Accommodation
+                                                    Options in
                                                     Paris.</a>
                                                 <p class="location"> Start Time: 17:00</p>
                                                 <p class="duration">Duration: 4H</p>
@@ -1049,11 +1059,11 @@
                                             <div
                                                 class="wsus__common_card_text_footer d-flex flex-wrap justify-content-between">
                                                 <h5>$96.00</h5>
-                                                <a href="#" class="read_btn">More Details</a>
+                                                <a href="event_details.html" class="read_btn">More Details</a>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-xl-6 col-md-6">
+                                    <div class="col-xl-6 col-md-6 wow fadeInUp">
                                         <div class="wsus__common_card event">
                                             <div class="wsus__common_card_img">
                                                 <img src="images/event_img_2.jpg" alt="Hotel" class="img-fluid w-100">
@@ -1073,7 +1083,7 @@
                                                     <i class="fas fa-star"></i>
                                                     <span>5 (168 reviews)</span>
                                                 </p>
-                                                <a href="#" class="title">Lylan’s Famous Minibus Tour –
+                                                <a href="event_details.html" class="title">Lylan’s Famous Minibus Tour –
                                                     Small Group Tour</a>
                                                 <p class="location">Start Time: 17:00</p>
                                                 <p class="duration">Duration: 4H</p>
@@ -1081,11 +1091,11 @@
                                             <div
                                                 class="wsus__common_card_text_footer d-flex flex-wrap justify-content-between">
                                                 <h5>$99.00</h5>
-                                                <a href="#" class="read_btn">More Details</a>
+                                                <a href="event_details.html" class="read_btn">More Details</a>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-xl-6 col-md-6">
+                                    <div class="col-xl-6 col-md-6 wow fadeInUp">
                                         <div class="wsus__common_card event">
                                             <div class="wsus__common_card_img">
                                                 <img src="images/event_img_3.jpg" alt="Hotel" class="img-fluid w-100">
@@ -1105,7 +1115,7 @@
                                                     <i class="fas fa-star"></i>
                                                     <span>5 (168 reviews)</span>
                                                 </p>
-                                                <a href="#" class="title">What to Know Before Moving
+                                                <a href="event_details.html" class="title">What to Know Before Moving
                                                     to Paris for 7 Day</a>
                                                 <p class="location">Start Time: 17:00</p>
                                                 <p class="duration">Duration: 4H</p>
@@ -1113,11 +1123,11 @@
                                             <div
                                                 class="wsus__common_card_text_footer d-flex flex-wrap justify-content-between">
                                                 <h5>$150.00</h5>
-                                                <a href="#" class="read_btn">More Details</a>
+                                                <a href="event_details.html" class="read_btn">More Details</a>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-xl-6 col-md-6">
+                                    <div class="col-xl-6 col-md-6 wow fadeInUp">
                                         <div class="wsus__common_card event">
                                             <div class="wsus__common_card_img">
                                                 <img src="images/event_img_2.jpg" alt="Hotel" class="img-fluid w-100">
@@ -1137,7 +1147,7 @@
                                                     <i class="fas fa-star"></i>
                                                     <span>5 (168 reviews)</span>
                                                 </p>
-                                                <a href="#" class="title">Lylan’s Famous Minibus Tour –
+                                                <a href="event_details.html" class="title">Lylan’s Famous Minibus Tour –
                                                     Small Group Tour</a>
                                                 <p class="location">Start Time: 17:00</p>
                                                 <p class="duration">Duration: 4H</p>
@@ -1145,12 +1155,12 @@
                                             <div
                                                 class="wsus__common_card_text_footer d-flex flex-wrap justify-content-between">
                                                 <h5>$99.00</h5>
-                                                <a href="#" class="read_btn">More Details</a>
+                                                <a href="event_details.html" class="read_btn">More Details</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row mt_60">
+                                <div class="row mt_60 wow fadeInUp">
                                     <div class="col-12 text-center">
                                         <a href="#" class="common_btn">See More Hotel <i
                                                 class="far fa-angle-down"></i></a>
@@ -1160,7 +1170,7 @@
                         </div>
                     </div>
                     <div class="row mt_90">
-                        <div class="col-12">
+                        <div class="col-12 wow fadeInUp">
                             <div
                                 class="wsus__details_review_area_header d-flex flex-wrap justify-content-between align-items-center">
                                 <h4>
@@ -1199,7 +1209,7 @@
                             </div>
                         </div>
                         <div class="col-xl-7 col-lg-8">
-                            <div class="wsus__single_review">
+                            <div class="wsus__single_review wow fadeInUp">
                                 <span class="rating">
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
@@ -1222,7 +1232,7 @@
                                     </h3>
                                 </div>
                             </div>
-                            <div class="wsus__single_review">
+                            <div class="wsus__single_review wow fadeInUp">
                                 <span class="rating">
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
@@ -1243,7 +1253,7 @@
                                     </h3>
                                 </div>
                             </div>
-                            <div class="wsus__single_review">
+                            <div class="wsus__single_review wow fadeInUp">
                                 <span class="rating">
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
@@ -1265,7 +1275,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 text-center border_top">
+                        <div class="col-12 text-center border_top wow fadeInUp">
                             <a href="#" class="common_btn">See More Reviews <i class="far fa-angle-down"></i></a>
                         </div>
                     </div>
@@ -1323,7 +1333,7 @@
     =============================-->
     <section class="wsus__newslwtter pt_120 xs_pt_100">
         <div class="container">
-            <div class="col-lg-9 ms-auto">
+            <div class="col-lg-9 ms-auto wow fadeInRight">
                 <div class="wsus__newslwtter_bg">
                     <div class="text">
                         <h2>Subscribe Us</h2>
@@ -1348,12 +1358,12 @@
     <footer class="pt_100">
         <div class="container">
             <div class="row justify-content-between">
-                <div class="col-lg-4">
+                <div class="col-lg-4 wow fadeInLeft">
                     <div class="wsus__footer_banner">
                         <img src="images/footer_banner.jpg" alt="banner" class="img-fluid w-100">
                     </div>
                 </div>
-                <div class="col-lg-2 col-sm-6 col-md-4">
+                <div class="col-lg-2 col-sm-6 col-md-4 wow fadeInRight" data-wow-delay="0s">
                     <div class="wsus__footer_link">
                         <h3>Quick Links</h3>
                         <ul>
@@ -1365,7 +1375,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-2 col-sm-6 col-md-4">
+                <div class="col-lg-2 col-sm-6 col-md-4 wow fadeInRight" data-wow-delay=".3s">
                     <div class="wsus__footer_link">
                         <h3>Platform</h3>
                         <ul>
@@ -1377,7 +1387,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4">
+                <div class="col-lg-3 col-md-4 wow fadeInRight" data-wow-delay=".6s">
                     <div class="wsus__footer_logo_area">
                         <a class="footer_logo" href="index.html">
                             <img src="images/logo_2.png" alt="Tking" class="img-fluid w-100">
@@ -1398,7 +1408,7 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="wsus__footer_copyright_text">
-                            <p>© 2023 All Rights Reserved by <span>Websolutionus</span></p>
+                            <p>© 2024 All Rights Reserved by <span>Websolutionus</span></p>
                             <div class="img">
                                 <img src="images/footer_payment_icon.png" alt="payment" class="img-fluid w-100">
                             </div>
@@ -1460,6 +1470,8 @@
     <script src="js/simplyCountdown.js"></script>
     <!--scroll button js-->
     <script src="js/scroll_button.js"></script>
+    <!--wow js-->
+    <script src="js/wow.min.js"></script>
 
     <!--main/custom js-->
     <script src="js/main.js"></script>

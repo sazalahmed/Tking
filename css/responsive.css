@@ -2254,21 +2254,13 @@
         max-width: 57%;
     }
 
-
-
-
-
-
-
     /*================================
         PAYMENT END
     ================================*/
 
-
-
-
-
-
+    .wsus__package_details .wsus__review_input_area {
+        margin-bottom: 25px;
+    }
 
 }
 
@@ -3211,6 +3203,10 @@
     /*================================
         PAYMENT END
     ================================*/
+
+    .wsus__package_details .wsus__review_input_area {
+        margin-bottom: 25px;
+    }
 
 }
 
@@ -4331,4 +4327,8 @@
     /*================================
         PAYMENT END
     ================================*/
+
+    .wsus__package_details .wsus__review_input_area {
+        margin-bottom: 25px;
+    }
 }

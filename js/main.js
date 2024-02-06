@@ -658,6 +658,10 @@ $(function () {
     });
 
 
+    //=======WOW JS========
+    new WOW().init();
+
+
     //=======COUNTDOWN======   
     var d = new Date(),
         countUpDate = new Date();

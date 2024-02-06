@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="css/ranger_slider.css">
     <link rel="stylesheet" href="css/venobox.min.css">
     <link rel="stylesheet" href="css/scroll_button.css">
+    <link rel="stylesheet" href="css/animate.css">
 
     <link rel="stylesheet" href="css/spacing.css">
     <link rel="stylesheet" href="css/style.css">
@@ -43,16 +44,15 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home <i
-                                class="far fa-angle-down"></i></a>
+                        <a class="nav-link" aria-current="page" href="#">Home <i class="far fa-angle-down"></i></a>
                         <ul class="submenu">
-                            <li><a class="active" href="index.html">home style 01</a></li>
+                            <li><a href="index.html">home style 01</a></li>
                             <li><a href="index_2.html">home style 02</a></li>
                             <li><a href="index_3.html">home style 03</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about_us.html">about us</a>
+                        <a class="nav-link active" href="about_us.html">about us</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Categories <i class="far fa-angle-down"></i></a>
@@ -104,11 +104,13 @@
                             <li><a href="agent_profile.html">agent profile</a></li>
                             <li><a href="services.html">Services</a></li>
                             <li><a href="faq.html">FAQ's</a></li>
-                            <li><a href="error.html">error</a></li>
+                            <li><a href="error.html">404/error</a></li>
                             <li><a href="forgot_password.html">forgot password</a></li>
                             <li><a href="hotel_room_details.html">hotel room details</a></li>
                             <li><a href="privacy_policy.html">privacy Policy</a></li>
                             <li><a href="terms_condition.html">terms and conditions</a></li>
+                            <li><a href="payment.html">payment</a></li>
+                            <li><a href="payment_done.html">payment done</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -163,12 +165,12 @@
         <div class="wsus__breadcrumb_overlay">
             <div class="container">
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-12 wow fadeInUp">
                         <div class="wsus__breadcrumb_text">
                             <h1>About Us</h1>
                             <ul>
                                 <li><a href="#">Home</a></li>
-                                <li><a class="active">About Us</a></li>
+                                <li>About Us</li>
                             </ul>
                         </div>
                     </div>
@@ -184,32 +186,10 @@
     <!--============================
         ABOUT US PAGE START
     =============================-->
-    <section class="wsus__about_story mt_110 xs_mt_95">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="wsus__about_story_text pb_100">
-                        <h2>About Our Story</h2>
-                        <p>TrakingTrip is the country's first and leading online travel aggregator. Since our inception,
-                            we have dreamt of making travel easier for people of all ages and we move forward to make
-                            that dream into reality. And now, with our new, innovative, easy-to-use Android and iOS
-                            mobile app, you can have travel services & lifestyle solutions at your fingertips. The
-                            dynamic app lets you book your flight, and hotel room and even find your perfect holiday
-                            from our thousands of holiday packages around the globe.</p>
-                        <p>It seems like you're interested in travel! If you have any specific questions or if there's a
-                            particular aspect of travel you'd like information on, feel free to let me know. Whether
-                            it's travel destinations, tips, planning, or anything else related to travel, I'm here to
-                            help!</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section class="wsus__why_choose_3 about_why_choose mt_120 xs_mt_90">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-xl-5 col-lg-6">
+                <div class="col-xl-5 col-lg-6 wow fadeInLeft">
                     <div class="wsus__why_choose_3_text">
                         <div class="section_heading heading_left mb_45">
                             <h2>Your Effortless Path to World Exploration</h2>
@@ -248,7 +228,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-xl-5 col-lg-6">
+                <div class="col-xl-5 col-lg-6 wow fadeInRight">
                     <div class="wsus__why_choose_3_img">
                         <img src="images/why_choose_3_img.png" alt="why choose" class="img-fluid w-100">
                         <p><span>Capture memories</span> but also savor the Present Moment.</p>
@@ -258,10 +238,41 @@
         </div>
     </section>
 
-    <section class="wsus__counter mt_120 xs_mt_100">
+
+    <section class="wsus__special_offer mt_85 xs_mt_65">
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div class="col-xl-4 col-lg-5 wow fadeInLeft">
+                    <div class="wsus__offer_item">
+                        <img src="images/special_offer_img_1.jpg" alt="offer_item" class="img-fluid w-100">
+                        <div class="text">
+                            <p>Plan your next trip</p>
+                            <h3>Weekly Flash Deals</h3>
+                            <a href="contact.html" class="common_btn">Explore More <i
+                                    class="far fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-8 col-lg-7 wow fadeInRight">
+                    <div class="wsus__offer_item wsus__offer_item_large">
+                        <img src="images/special_offer_img_2.jpg" alt="offer_item" class="img-fluid w-100">
+                        <div class="text">
+                            <p>Plan your next trip</p>
+                            <h3>Things to do on Your Next Trip with us.</h3>
+                            <a href="contact.html" class="common_btn">Explore More <i
+                                    class="far fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="wsus__counter mt_110 xs_mt_90">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 wow fadeInUp">
                     <ul class="wsus__counter_area">
                         <li>
                             <div class="counter_icon">
@@ -301,10 +312,11 @@
         <div class="wsus__video_overlay pt_140 xs_pt_100 pb_160 xs_pb_100">
             <div class="container">
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-12 wow fadeInUp">
                         <div class="wsus__video_text">
                             <h2>Discover story-worthy Travel Moments.</h2>
-                            <a href="#" class="common_btn">Explore More <i class="far fa-arrow-right"></i></a>
+                            <a href="contact.html" class="common_btn">Explore More <i
+                                    class="far fa-arrow-right"></i></a>
 
                             <a class="venobox circle_box" data-autoplay="true" data-vbtype="video"
                                 href="https://youtu.be/hNN9Q3GuWEM?si=L4uoW2mbE215ChMW">
@@ -333,7 +345,7 @@
 
     <section class="wsus__team pt_110 xs_pt_90">
         <div class="container">
-            <div class="row">
+            <div class="row wow fadeInUp">
                 <div class="col-xl-6 m-auto">
                     <div class="section_heading mb_25">
                         <h2>Our Team Member</h2>
@@ -341,11 +353,11 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-xl-4 col-md-6">
+                <div class="col-xl-4 col-md-6 wow fadeInUp">
                     <div class="wsus__single_team">
                         <img src="images/team_img_1.jpg" alt="team" class="img-fluid w-100">
                         <div class="text">
-                            <a class="title" href="#">Nathaneal Down</a>
+                            <a class="title" href="agent_profile.html">Nathaneal Down</a>
                             <p>Founder & Managing Director</p>
                         </div>
                         <ul>
@@ -356,11 +368,11 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-xl-4 col-md-6">
+                <div class="col-xl-4 col-md-6 wow fadeInUp">
                     <div class="wsus__single_team">
                         <img src="images/team_img_2.jpg" alt="team" class="img-fluid w-100">
                         <div class="text">
-                            <a class="title" href="#">Nathaneal Down</a>
+                            <a class="title" href="agent_profile.html">Nathaneal Down</a>
                             <p>Founder & Managing Director</p>
                         </div>
                         <ul>
@@ -371,11 +383,11 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-xl-4 col-md-6">
+                <div class="col-xl-4 col-md-6 wow fadeInUp">
                     <div class="wsus__single_team">
                         <img src="images/team_img_3.jpg" alt="team" class="img-fluid w-100">
                         <div class="text">
-                            <a class="title" href="#">Nathaneal Down</a>
+                            <a class="title" href="agent_profile.html">Nathaneal Down</a>
                             <p>Founder & Managing Director</p>
                         </div>
                         <ul>
@@ -393,7 +405,7 @@
     <section class="wsus__testimonial_2 pt_120 xs_pt_100">
         <div class="container">
             <div class="row testi_slider_2">
-                <div class="col-xl-6">
+                <div class="col-xl-6 wow fadeInUp">
                     <div class="wsus__testimonial_2_item">
                         <p class="rating">
                             <i class="fas fa-star"></i>
@@ -413,7 +425,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6">
+                <div class="col-xl-6 wow fadeInUp">
                     <div class="wsus__testimonial_2_item">
                         <p class="rating">
                             <i class="fas fa-star"></i>
@@ -433,7 +445,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6">
+                <div class="col-xl-6 wow fadeInUp">
                     <div class="wsus__testimonial_2_item">
                         <p class="rating">
                             <i class="fas fa-star"></i>
@@ -460,7 +472,7 @@
     <section class="wsus__download mt_120 xs_mt_100">
         <div class="container">
             <div class="row">
-                <div class="col-xl-7 col-md-6">
+                <div class="col-xl-7 col-md-6 wow fadeInUp">
                     <div class="wsus__download_text">
                         <h5>Your First Booking <br> Discount - <span>Get 25% Off</span> on Your <br> Next Adventure with
                             Us!
@@ -481,7 +493,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-xl-5 col-md-6">
+                <div class="col-xl-5 col-md-6 wow fadeInRight">
                     <div class="wsus__download_img">
                         <img src="images/download_img.png" alt="download" class="img-fluid w-100">
                     </div>
@@ -492,7 +504,7 @@
 
     <section class="wsus__faq pt_100  xs_pt_80">
         <div class="container">
-            <div class="row">
+            <div class="row wow fadeInUp">
                 <div class="col-xl-7 m-auto">
                     <div class="section_heading mb_25">
                         <h2>Frequently Asked Questions</h2>
@@ -502,7 +514,7 @@
             <div class="accordion" id="accordionExample">
                 <div class="row">
                     <div class="col-xl-6">
-                        <div class="accordion-item">
+                        <div class="accordion-item wow fadeInUp">
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -518,7 +530,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item">
+                        <div class="accordion-item wow fadeInUp">
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -534,7 +546,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item">
+                        <div class="accordion-item wow fadeInUp">
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -550,7 +562,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item">
+                        <div class="accordion-item wow fadeInUp">
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseThree2" aria-expanded="false"
@@ -569,12 +581,12 @@
                         </div>
                     </div>
                     <div class="col-xl-6">
-                        <div class="accordion-item">
+                        <div class="accordion-item wow fadeInUp">
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseThree3" aria-expanded="false"
                                     aria-controls="collapseThree3">
-                                    5. What is Your Cancellation Policy?
+                                    5. What travel documents do I need?
                                 </button>
                             </h2>
                             <div id="collapseThree3" class="accordion-collapse collapse"
@@ -586,7 +598,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item">
+                        <div class="accordion-item wow fadeInUp">
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseThree4" aria-expanded="false"
@@ -603,7 +615,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item">
+                        <div class="accordion-item wow fadeInUp">
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseThree5" aria-expanded="false"
@@ -620,12 +632,12 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item">
+                        <div class="accordion-item wow fadeInUp">
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseThree6" aria-expanded="false"
                                     aria-controls="collapseThree6">
-                                    8. How many People can stay in the Hotel?
+                                    8. How to extend the support ?
                                 </button>
                             </h2>
                             <div id="collapseThree6" class="accordion-collapse collapse"
@@ -653,7 +665,7 @@
     =============================-->
     <section class="wsus__newslwtter pt_120 xs_pt_100">
         <div class="container">
-            <div class="col-lg-9 ms-auto">
+            <div class="col-lg-9 ms-auto wow fadeInRight">
                 <div class="wsus__newslwtter_bg">
                     <div class="text">
                         <h2>Subscribe Us</h2>
@@ -678,12 +690,12 @@
     <footer class="pt_100">
         <div class="container">
             <div class="row justify-content-between">
-                <div class="col-lg-4">
+                <div class="col-lg-4 wow fadeInLeft">
                     <div class="wsus__footer_banner">
                         <img src="images/footer_banner.jpg" alt="banner" class="img-fluid w-100">
                     </div>
                 </div>
-                <div class="col-lg-2 col-sm-6 col-md-4">
+                <div class="col-lg-2 col-sm-6 col-md-4 wow fadeInRight" data-wow-delay="0s">
                     <div class="wsus__footer_link">
                         <h3>Quick Links</h3>
                         <ul>
@@ -695,7 +707,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-2 col-sm-6 col-md-4">
+                <div class="col-lg-2 col-sm-6 col-md-4 wow fadeInRight" data-wow-delay=".3s">
                     <div class="wsus__footer_link">
                         <h3>Platform</h3>
                         <ul>
@@ -707,7 +719,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4">
+                <div class="col-lg-3 col-md-4 wow fadeInRight" data-wow-delay=".6s">
                     <div class="wsus__footer_logo_area">
                         <a class="footer_logo" href="index.html">
                             <img src="images/logo_2.png" alt="Tking" class="img-fluid w-100">
@@ -728,7 +740,7 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="wsus__footer_copyright_text">
-                            <p>© 2023 All Rights Reserved by <span>Websolutionus</span></p>
+                            <p>© 2024 All Rights Reserved by <span>Websolutionus</span></p>
                             <div class="img">
                                 <img src="images/footer_payment_icon.png" alt="payment" class="img-fluid w-100">
                             </div>
@@ -790,6 +802,8 @@
     <script src="js/simplyCountdown.js"></script>
     <!--scroll button js-->
     <script src="js/scroll_button.js"></script>
+    <!--wow js-->
+    <script src="js/wow.min.js"></script>
 
     <!--main/custom js-->
     <script src="js/main.js"></script>
