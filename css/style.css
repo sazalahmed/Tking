@@ -508,7 +508,7 @@ button {
 
 .form-check-input:checked {
     background-color: var(--colorPrimary);
-    border-color: var(--colorPrimary);
+    border-color: var(--colorPrimary) !important;
 }
 
 /*============================
@@ -524,13 +524,17 @@ button {
     width: 100%;
     height: 80px;
     background: var(--colorWhite);
-    border-bottom: 1px solid rgba(4, 6, 24, 0.10);
     padding: 0;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 99;
     transition: all linear .3s;
+    box-shadow: 0px 3px 3px 0px rgba(4, 6, 24, 0.10);
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
 }
 
 .main_menu .navbar-brand {
@@ -601,8 +605,7 @@ button {
     opacity: 1;
 }
 
-.main_menu .navbar-nav .nav-item:hover .nav-link::after,
-.main_menu .navbar-nav .nav-item .nav-link.active::after {
+.main_menu .navbar-nav .nav-item:hover .nav-link::after {
     opacity: 1;
 }
 
@@ -878,7 +881,7 @@ button {
 
 .wsus__banner_aearch .nav-pills .nav-item button span {
     display: block;
-    width: 16px;
+    width: 20px;
     height: auto;
     margin-right: 8px;
 }
@@ -1028,6 +1031,10 @@ button {
     -ms-transition: all linear .3s;
     -o-transition: all linear .3s;
     z-index: 9;
+    -webkit-transform: scaleY(0);
+    -moz-transform: scaleY(0);
+    -ms-transform: scaleY(0);
+    -o-transform: scaleY(0);
 }
 
 .wsus__banner_aearch .quentity_dropdown.show_qnty {
@@ -1146,6 +1153,10 @@ button {
     transform: scale(1);
     top: 115%;
     opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
 }
 
 .wsus__adv_search_area .wsus__adv_search_close {
@@ -1366,6 +1377,7 @@ button {
 .wsus__destinations .prevArrow {
     right: auto;
     left: -8px;
+    border: none;
 }
 
 .wsus__destinations .all_destination {
@@ -2967,6 +2979,10 @@ footer {
     padding: 6px 16px;
     transition: all linear .3s;
     display: inline-block;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
 }
 
 .wsus__common_card_2_text .popup_btn a:hover {
@@ -3271,7 +3287,7 @@ footer {
 
 .wsus__service_video_img svg,
 .wsus__video_text svg {
-    font-size: 16px;
+    font-size: 15.3px;
     font-weight: 500;
 }
 
@@ -3430,6 +3446,10 @@ footer {
     font-size: 0;
     background: none;
     transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
 }
 
 .wsus__testimonial_2 .slick-dots .slick-active button {
@@ -4094,7 +4114,7 @@ header {
     position: relative;
     z-index: 2;
     height: auto !important;
-    padding-top: 285px;
+    padding-top: 355px;
 }
 
 .wsus__banner_text h5 {
@@ -4109,7 +4129,7 @@ header {
 .wsus__banner_text_3 h1 {
     font-size: 85px;
     margin-top: 10px;
-    margin-bottom: 43px;
+    margin-bottom: 30px;
 }
 
 .wsus__banner_text_3 p {
@@ -4122,7 +4142,7 @@ header {
 
 .wsus__banner_text_3 .wsus__banner_aearch .nav-pills {
     background: #E4E7EB;
-    margin-top: 145px;
+    margin-top: 85px;
 }
 
 .wsus__banner_text_3 .wsus__banner_aearch .nav-pills .nav-item button::after {
@@ -4315,10 +4335,19 @@ header {
     width: 100%;
     text-align: center;
     padding: 26px 10px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
 }
 
 .wsus__package_3 .explore i {
     margin-left: 5px;
+}
+
+.wsus__package_3 .explore:hover {
+    color: var(--colorPrimary);
 }
 
 /* package 3 end */
@@ -4561,7 +4590,7 @@ header {
     font-size: 50px;
     font-weight: 400;
     line-height: 56px;
-    max-width: 85%;
+    max-width: 90%;
     margin-top: 5px;
     margin-bottom: 45px;
 }
@@ -5125,6 +5154,7 @@ header {
     border-radius: 0;
     border: 1px solid var(--colorBlack);
     margin-right: 10px;
+    margin-top: 0px;
 }
 
 .wsus__left_sidebar_wizard .form-check label {
@@ -5368,6 +5398,7 @@ header {
 .wsus__hotel_details .prevArrow {
     right: auto;
     left: -8px;
+    border: 0;
 }
 
 .wsus__details_header {
@@ -5435,6 +5466,16 @@ header {
     border-radius: 50%;
     color: var(--colorBlack);
     background: rgba(4, 6, 24, 0.06);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.wsus__details_header .bookmark:hover {
+    background: var(--colorPrimary);
+    color: var(--colorWhite);
 }
 
 .wsus__details_header .rating {
@@ -5643,7 +5684,7 @@ header {
     border: none;
     font-size: 14px;
     font-weight: 600;
-    /* text-transform: uppercase; */
+
 }
 
 .wsus__sidebar_booking_info form ul li input::placeholder {
@@ -5678,6 +5719,10 @@ header {
     -ms-transition: all linear .3s;
     -o-transition: all linear .3s;
     z-index: 1;
+    -webkit-transform: scaleY(0);
+    -moz-transform: scaleY(0);
+    -ms-transform: scaleY(0);
+    -o-transform: scaleY(0);
 }
 
 .wsus__sidebar_booking_info .quentity_dropdown.show_qnty {
@@ -6700,6 +6745,10 @@ header {
     top: 50%;
     right: 40px;
     transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
 }
 
 .wsus__blog_details_text h1,
@@ -6849,7 +6898,7 @@ header {
 }
 
 .wsus__next_prev_btn li a span {
-    border: 1px solid rgba(4, 6, 24, 0.10);
+    border: 1px solid rgb(4 6 24 / 26%);
     color: var(--paraColor);
     font-size: 13px;
     font-weight: 500;
@@ -6857,6 +6906,10 @@ header {
     margin-bottom: 5px;
     display: inline-block;
     transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
 }
 
 .wsus__next_prev_btn li a:hover span {
@@ -6866,7 +6919,7 @@ header {
 }
 
 .wsus__next_prev_btn li.previous a {
-    border-right: 1px solid rgba(4, 6, 24, 0.06);
+    border-right: 1px solid rgb(4 6 24 / 20%);
 }
 
 .wsus__next_prev_btn li.next {
@@ -6927,6 +6980,10 @@ header {
     background: #F0F0F1;
     padding: 3px 15px;
     transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
 }
 
 .wsus__single_comment .text p a:hover {
@@ -7273,6 +7330,10 @@ header {
     font-weight: 500;
     display: block;
     transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
 }
 
 .wsus__agent_profile_text .link li:first-child {
@@ -7330,7 +7391,7 @@ header {
 .wsus__agent_tab_area .nav-link span {
     display: block;
     width: 20px;
-    height: 20px;
+    height: auto;
     margin-right: 8px;
 }
 
@@ -7573,6 +7634,10 @@ header {
     font-weight: 500;
     color: var(--colorPrimary);
     transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
 }
 
 .wsus__sign_in_form .dont_account a:hover {
@@ -7598,6 +7663,10 @@ header {
     text-align: center;
     color: var(--colorPrimary);
     margin-top: 25px;
+}
+
+.wsus__forgot_password form button {
+    padding: 13px 25px;
 }
 
 .wsus__forgot_password form a:hover {
@@ -7786,6 +7855,10 @@ header {
     background: var(--colorPrimary);
     border-radius: 50%;
     transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
 }
 
 .single_form {
@@ -7919,11 +7992,15 @@ header {
     font-size: 18px;
     font-weight: 600;
     color: var(--colorBlack);
-    transition: all linear .3s;
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
 }
 
 .sidebar_package_item .text a:hover {

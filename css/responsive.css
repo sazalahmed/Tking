@@ -3474,6 +3474,7 @@
     .wsus__popular_flight_banner {
         margin-bottom: 25px;
         height: auto;
+        width: 100%;
     }
 
     .wsus__popular_flight_item {
@@ -3621,7 +3622,6 @@
 
     .destinatiom_2_last_item {
         overflow: initial;
-        margin-bottom: 215px;
     }
 
     .destinatiom_2_last_item .text_2 {
@@ -3686,8 +3686,7 @@
     }
 
     .wsus__video_text .circle_box {
-        position: initial;
-        margin-top: 50px;
+        display: none;
     }
 
     .wsus__testimonial_2_item {
@@ -3699,7 +3698,7 @@
     }
 
     .wsus__single_blog_2 {
-        height: 340px;
+        height: auto;
     }
 
     .instagram_single_photo {
@@ -3773,7 +3772,7 @@
     }
 
     .wsus__single_package_3_img {
-        height: 360px;
+        height: auto;
         margin-top: 25px;
     }
 
@@ -3797,7 +3796,7 @@
     }
 
     .wsus__destination_3_item .text {
-        width: 100%;
+        width: auto;
         margin-top: 20px;
     }
 
@@ -4330,5 +4329,25 @@
 
     .wsus__package_details .wsus__review_input_area {
         margin-bottom: 25px;
+    }
+
+    .wsus__popular_flight_item .img {
+        margin-right: 20px;
+    }
+
+    .destinatiom_2_last_item img {
+        max-width: 100%;
+    }
+
+    .wsus__single_destinatiom_2 {
+        height: auto;
+    }
+
+    .wsus__promo_code form {
+        max-width: 100%;
+    }
+
+    .wsus__video_text {
+        text-align: center;
     }
 }

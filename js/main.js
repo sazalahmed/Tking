@@ -5,7 +5,7 @@ $(function () {
     //======menu fix js======
     if ($('.main_menu').offset() != undefined) {
         var navoff = $('.main_menu').offset().top;
-        $(window).scroll(function () {
+        $(window).on("scroll", function () {
             var scrolling = $(this).scrollTop();
 
             if (scrolling > navoff) {
@@ -61,7 +61,7 @@ $(function () {
         $(".wsus__adv_search_area").removeClass("show_search");
     });
 
-    $('body').click(function (event) {
+    $('body').on("click", function (event) {
         if ($(".wsus__adv_search_area").hasClass("show_search")) {
             if (!$(event.target).closest('.wsus__banner_aearch').length) {
                 $(".wsus__adv_search_area").removeClass("show_search");
